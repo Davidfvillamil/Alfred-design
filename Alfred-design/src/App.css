@@ -1,42 +1,43 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url(../src/assets/Fonts/clash-display.css);
+
+:root{
+  --color-dark: #212529;
+  --color-brand: #4e57d4;
+  --color-brand-light: #6970dd;
+  --color-brand-rgb: 78,87,212;
+  --color-body:#727272;
+  --font-base:"ClashDisplay", sans-serif;
+  --box-shadow:0px 15px 25px rgb(0,0,0,0);
+  --transition: all 0.5s ease;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body{
+  font-family: var(--font-base);
+  line-height: 1.7;
+  color: var(--color-body);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,h2,h3,h4,h5,h6,
+.h1, .h2, .h3, .h4, .h5,.h6{
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  color: var(--color-brand);
+  transition: var(--transition);
 }
 
-.card {
-  padding: 2em;
+a:hover{
+  color: var(--color-brand-light);
 }
 
-.read-the-docs {
-  color: #888;
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.section-padding{
+  padding-top: 140px;
+  padding-bottom: 140px;
 }

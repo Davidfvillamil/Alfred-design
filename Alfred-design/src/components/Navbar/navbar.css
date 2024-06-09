@@ -1,0 +1,44 @@
+
+
+:root{
+  --color-dark: #212529;
+  --color-brand: #4e57d4;
+  --color-brand-light: #6970dd;
+  --color-brand-rgb: 78,87,212;
+  --color-body:#727272;
+  --font-base:"ClashDisplay", sans-serif;
+  --box-shadow:0px 15px 25px rgb(0,0,0,0.08);
+  --transition: all 0.5s ease;
+}
+
+.navbar{
+  box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link{
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+.navbar-nav .nav-link.active{
+  color: var(--color-brand);
+}
+
+.btn{
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 24px;
+}
+
+.btn-brand{
+  background-color: var(--color-brand);
+  color: white;
+  border-color: var(--color-brand);
+}
+
+.btn-brand:hover{
+  background-color: var(--color-brand-light);
+  border-color: var(--color-brand-light);
+  color: white;
+}
