@@ -23,6 +23,19 @@
 }
 
 #hero{
-   /* background: linear-gradient(rgba(0 0 0 0.507), rgba(0 0 0 0.438)), url(../../assets/img1.jpg);*/
-   background-image: url('../../assets/img1.jpg');
+   background: linear-gradient(rgba(0, 0, 0, 0.507) rgba(0, 0, 0, 0.438));
+   background-image: url(../../assets/img2.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+}
+
+.title-h1{
+    color: white;
+}
+
+.paragraph{
+    color: white;
+    font-size: 30px;
 }
