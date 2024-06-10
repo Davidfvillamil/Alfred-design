@@ -23,7 +23,7 @@
 }
 
 #hero{
-   background: linear-gradient(rgba(0, 0, 0, 0.507) rgba(0, 0, 0, 0.438));
+   background: linear-gradient(rgba(var(--color-brand), 0.507) rgba(0, 0, 0, 0.438));
    background-image: url(../../assets/img2.jpg);
    background-size: cover;
    background-position: center;
@@ -35,7 +35,3 @@
     color: white;
 }
 
-.paragraph{
-    color: white;
-    font-size: 30px;
-}
