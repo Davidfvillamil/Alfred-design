@@ -8,7 +8,7 @@ import Counter from './components/counter/Counter'
 import Portafolio from './components/Portafolio/Portafolio'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
