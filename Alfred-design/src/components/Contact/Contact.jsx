@@ -1,8 +1,8 @@
-import React from 'react'
 
+import React from 'react'
 import './contact.css'
 
-function Contact_info() {
+function contact() {
   return (
     <section id='contact' className='section-padding'>
         <div className="container">
@@ -51,4 +51,4 @@ function Contact_info() {
   )
 }
 
-export default Contact_info
+export default contact
