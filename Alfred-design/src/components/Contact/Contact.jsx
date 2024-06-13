@@ -2,7 +2,7 @@ import React from 'react'
 
 import './contact.css'
 
-function Contact() {
+function Contact_info() {
   return (
     <section id='contact' className='section-padding'>
         <div className="container">
@@ -51,4 +51,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Contact_info

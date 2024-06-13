@@ -8,7 +8,7 @@ import Counter from './components/counter/Counter'
 import Portafolio from './components/Portafolio/Portafolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Team from './components/team/Team'
-import Contact from './components/Contact/contact'
+import Contact_info from './components/Contact/contact'
 import Footer from './components/footer/Footer'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Portafolio></Portafolio>
       <Testimonials></Testimonials>
       <Team></Team>
-      <Contact></Contact>
+      <Contact_info></Contact_info>
       <Footer></Footer>
     </>
   )
