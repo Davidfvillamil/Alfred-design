@@ -29,7 +29,7 @@ function Footer() {
                             <li><a href="">Ux/Ui</a></li>
                             <li><a href="">Video edition</a></li>
                             <li><a href="">design</a></li>
-                            <li><a href="">Video creation</a></li>
+                            <li><a href="">Video creationss</a></li>
                         </ul>
                         
                     </div>
