@@ -9,7 +9,7 @@ import Portafolio from './components/Portafolio/Portafolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Team from './components/team/Team'
 import Footer from './components/footer/Footer'
-import Contact from './components/Contact/contact'
+import Contact from './components/Contact/ct.jsx'
 
 function App() {
   
