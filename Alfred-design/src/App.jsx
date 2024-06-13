@@ -7,6 +7,7 @@ import Services from './components/services/Services'
 import Counter from './components/counter/Counter'
 import Portafolio from './components/Portafolio/Portafolio'
 import Testimonials from './components/testimonials/Testimonials'
+import Team from './components/team/Team'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       <Counter></Counter>
       <Portafolio></Portafolio>
       <Testimonials></Testimonials>
+      <Team></Team>
     </>
   )
 }
