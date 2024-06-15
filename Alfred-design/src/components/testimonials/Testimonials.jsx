@@ -31,7 +31,7 @@ function Testimonials() {
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae at aspernatur voluptates cum fuga facere, sequi sapiente qui deleniti iure ex harum, exercitationem libero odio adipisci hic aperiam nam.</p>
                         </div>
-                        <div className="review-person mt-4 d-flex align-items-center">
+                        <div className="review-person mt-4 mb-3 d-flex align-items-center">
                             <img src={David} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
                                 <h5>David Villamil</h5>
@@ -52,7 +52,7 @@ function Testimonials() {
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae at aspernatur voluptates cum fuga facere, sequi sapiente qui deleniti iure ex harum, exercitationem libero odio adipisci hic aperiam nam.</p>
                         </div>
-                        <div className="review-person mt-4 d-flex align-items-center">
+                        <div className="review-person mt-4 mb-3 d-flex align-items-center">
                             <img src={David} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
                                 <h5>David Villamil</h5>
@@ -73,7 +73,7 @@ function Testimonials() {
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae at aspernatur voluptates cum fuga facere, sequi sapiente qui deleniti iure ex harum, exercitationem libero odio adipisci hic aperiam nam.</p>
                         </div>
-                        <div className="review-person mt-4 d-flex align-items-center">
+                        <div className="review-person mt-4 mb-3 d-flex align-items-center">
                             <img src={David} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
                                 <h5>David Villamil</h5>

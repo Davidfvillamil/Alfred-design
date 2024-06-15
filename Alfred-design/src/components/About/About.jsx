@@ -23,7 +23,7 @@ function About() {
                     <img src={About_foto} alt="" className="responsive-img"/>
                 </div>
                 <div className="col-lg-5">
-                    <h1>About Alfred</h1>
+                    <h1 className='mt-4'>About Alfred</h1>
                     <p className='mt-3 mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quibusdam rerum exercitationem obcaecati in suscipit.</p>
                     <div className='d-flex pt-4 mb-3'>
                         <div className="iconbox me-3">

@@ -13,17 +13,19 @@ function Footer() {
             <div className="container">
                 <div className="row gy-5">
                     <div className="col-lg-3 col-sm-6">
-                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src="" alt="" />ALFRED</a>
                         <div className="line"></div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestias ad saepe provident.</p>
+                        {/*}
                         <div>
                             <a href=""><BsInstagram /></a>
                             <a href=""><RiTwitterXLine /></a>
                             <a href=""><FaTiktok /></a>
                         </div>
+                        */}
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <h5>Services</h5>
+                        <h5 className='mb-0 text-white'>SERVICES</h5>
                         <div className="line"></div>
                         <ul>
                             <li><a href="">Ux/Ui</a></li>
@@ -32,6 +34,41 @@ function Footer() {
                             <li><a href="">Video creationss</a></li>
                         </ul>
                         
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <h5>ABOUT</h5>
+                        <div className="line"></div>
+                        <ul>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Team</a></li>
+                            <li><a href="">Video creation</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <h5>CONTACT US</h5>
+                        <div className="line"></div>
+                        <ul>
+                            <li><a href="">Miami, Florida</a></li>
+                            <li><a href="">df.villamilmartinez@allfred.lat</a></li>
+                            <li><a href="">(+57) 320-802-8073</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="footer-bottom">
+            <div className="container">
+                <div className="row g-4 justify-content-between">
+                    <div className="col-auto">
+                        <div className="pb-0">Copy right para todas las ocasiones</div>
+                    </div>
+                    <div className="col-auto">
+                        <div className="pb-0">Designed by Allfred</div>
                     </div>
                 </div>
             </div>
