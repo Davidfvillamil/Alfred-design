@@ -32,11 +32,21 @@ function Contact() {
 
   const handleClick = () => {
     Swal.fire({
-      position: "top-end",
-      icon: "success",
-      title: "Your email has been sent",
-      showConfirmButton: false,
-      timer: 1500
+      title: "Email sent",
+      showClass: {
+        popup: `
+          animate__animated
+          animate__fadeInUp
+          animate__faster
+        `
+      },
+      hideClass: {
+        popup: `
+          animate__animated
+          animate__fadeOutDown
+          animate__faster
+        `
+      }
     });
   }
 
@@ -63,9 +73,6 @@ function Contact() {
                   </div>
                   <div className="form-group col-lg-12">
                     <input type="email"  className='form-control' placeholder='Enter email' name="user_email"/>
-                  </div>
-                  <div className="form-group col-lg-12">
-                    <input type="text"  className='form-control' placeholder='Enter subjet'/>
                   </div>
                   <div className="form-group col-lg-12">
                     <select id="options" name="options" className="form-group col-lg-12" placeholder = "prefered option">
