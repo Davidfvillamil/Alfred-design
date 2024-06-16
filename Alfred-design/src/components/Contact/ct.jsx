@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import './contact.css'
 
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 function Contact() {
 
@@ -12,12 +13,14 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+
     emailjs
       .sendForm('service_bwtt0qe', 'template_oewbjhk', form.current, {
         publicKey: 'kixPAo62u5waeF82w',
       })
       .then(
         () => {
+          
           console.log('SUCCESS!');
           console.log('Message sent!')
         },
@@ -27,6 +30,15 @@ function Contact() {
       );
   };
 
+  const handleClick = () => {
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Your email has been sent",
+      showConfirmButton: false,
+      timer: 1500
+    });
+  }
 
   return (
     <section id='contact' className='section-padding'>
@@ -66,10 +78,12 @@ function Contact() {
                     <textarea name="message" rows='5' className='form-control' placeholder='Do you want to know somenthing specific? Tell us!' ></textarea>
                   </div>
                   <div className="form-group col-lg-12 d-grid">
-                    <button className='btn btn-brand' value="Send">Send Message</button>
+                    <button className='btn btn-brand' value="Send" onClick={handleClick}>Send Message</button>
                   </div>
                 </form>
+                
             </div>
+            
           </div>
         </div>
     </section>
