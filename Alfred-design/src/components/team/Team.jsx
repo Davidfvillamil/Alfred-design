@@ -1,5 +1,6 @@
 import React from 'react'
 import David from '../../assets/yo_formal.jpeg'
+import Optimus from '../../assets/Optimus.jpg'
 
 import './team.css'
 
@@ -31,11 +32,11 @@ function Team() {
                 <div className="col-md-4">
                     <div className="team-member image-zoom">
                         <div className="image-zoom-wrapper">
-                            <img src={David} alt="" />
+                            <img src={Optimus} alt="" />
                         </div>
                         <div className="team-member-content">
-                            <h4 className='text-white'>David Villamil</h4>
-                            <p className='mb-0 text-white'>CEO</p>
+                            <h4 className='text-white'>Optimus Villamil</h4>
+                            <p className='mb-0 text-white'>CHO (Chief Happiness Officer)</p>
                         </div>
                     </div>
                 </div>
