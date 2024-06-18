@@ -10,6 +10,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Team from './components/team/Team'
 import Footer from './components/footer/Footer'
 import Contact from './components/Contact/ct.jsx'
+import Pricing from './components/Pricing/Pricing.jsx'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
       <Services></Services>
       <Counter></Counter>
       <Portafolio></Portafolio>
+      <Pricing></Pricing>
       <Testimonials></Testimonials>
       <Team></Team>
       <Contact></Contact>
