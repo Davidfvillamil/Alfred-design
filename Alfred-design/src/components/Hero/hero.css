@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+
 :root{
     --color-dark: #212529;
     --color-brand: #4e57d4;
@@ -24,14 +28,17 @@
 
 #hero{
    background: linear-gradient(rgba(var(--color-brand), 0.507) rgba(0, 0, 0, 0.438));
-   background-image: url(../../assets/img2.jpg);
+   background-image: url(../../assets/home1.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    min-height: 100vh;
+   font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .title-h1{
-    color: white;
+    color: var(--color-brand-light);
 }
 

@@ -4,7 +4,7 @@ import './navbar.css'
 function Navbar() {
   return (
     <>
-        <nav className="navbar navbar-expand-lg bg-white stick-top">
+        <nav className="navbar navbar-expand-lg bg-white sticky-top">
             <div className="container">
                 <a className="navbar-brand" href="#">
                   Alfred-Design
@@ -25,15 +25,18 @@ function Navbar() {
                       </li>  
                       <li className="nav-item">
                         <a className="nav-link" href="#team">Team</a>
+                      </li> 
+                      <li className="nav-item">
+                        <a className="nav-link" href="#pricing">Pricing</a>
                       </li>  
                       <li className="nav-item">
-                        <a className="nav-link" href="#reviews">Reviws</a>
+                        <a className="nav-link" href="#reviews">Reviews</a>
                       </li>  
                       <li className="nav-item">
-                        <a className="nav-link" href="#cotact">Contact</a>
+                        <a className="nav-link" href="#contact">Contact</a>
                       </li>  
                   </ul>
-                  <a href="" className='btn btn-brand ms-lg-3'>Get Started</a>
+                  <a href="#contact" className='btn btn-brand ms-lg-3'>Get Started</a>
                 </div>
             </div>
         </nav>

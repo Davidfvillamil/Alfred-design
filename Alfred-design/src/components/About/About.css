@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 :root{
     --color-dark: #212529;
     --color-brand: #4e57d4;
@@ -11,6 +12,12 @@
 .section-padding{
     padding-top: 140px;
     padding-bottom: 140px;
+}
+
+#about{
+    font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .responsive-img {

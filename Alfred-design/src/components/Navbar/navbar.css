@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 
 :root{
   --color-dark: #212529;
@@ -13,6 +13,9 @@
 
 .navbar{
   box-shadow: var(--box-shadow);
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .navbar-nav .nav-link{
