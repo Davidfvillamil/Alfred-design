@@ -58,7 +58,7 @@ function Pricing() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-sm-6">
+                <div className="col-lg-4 col-sm-6 mb-4">
                     <div className="pricing">
                         <div className="pricing-head p-4 bg-white theme-shadow">
                             <h3 className='text-center'>Alfred CRUSH it! </h3>
@@ -96,7 +96,7 @@ function Pricing() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-sm-6">
+                <div className="col-lg-4 col-sm-6 mb-4">
                     <div className="pricing">
                         <div className="pricing-head p-4 bg-white theme-shadow">
                             <h3 className='text-center'>Alfred MASTER it!</h3>
