@@ -77,8 +77,8 @@ function Contact() {
                   <div className="form-group col-lg-12">
                     <select id="options" name="options" className="form-group col-lg-12" placeholder = "prefered option">
                         <option value="opcion_990_USD">I'm intered on the 990 USD plan</option>
-                        <option value="opcion_1650_USD">I'm intered on the 1500 USD plan</option>
-                        <option value="opcion_2900_USD">I'm intered on the 2400 USD plan</option>
+                        <option value="opcion_1650_USD">I'm intered on the 1650 USD plan</option>
+                        <option value="opcion_2900_USD">I'm intered on the 2900 USD plan</option>
                     </select>
                   </div>
                   <div className="form-group col-lg-12">
