@@ -2,6 +2,9 @@ import React from 'react'
 
 import { FaStar } from "react-icons/fa6";
 import David from '../../assets/yo_formal.jpeg'
+import Santiago from '../../assets/santiago.jpg'
+import Juan from '../../assets/juan-caro.jpeg'
+import Lina from '../../assets/Lina_Cuervo.png'
 
 import './testimonials.css'
 
@@ -29,13 +32,13 @@ function Testimonials() {
                                 <FaStar />
                                 <FaStar />
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae at aspernatur voluptates cum fuga facere, sequi sapiente qui deleniti iure ex harum, exercitationem libero odio adipisci hic aperiam nam.</p>
+                            <p>Alfred Design has been pivotal in our strategic investments. Their ability to translate complex ideas into captivating visual designs has greatly enhanced our portfolio companies' market appeal. Their team's creativity and dedication to quality design are unparalleled</p>
                         </div>
                         <div className="review-person mt-4 mb-3 d-flex align-items-center">
-                            <img src={David} alt="" className='perfil-image rounded-circle'/>
+                            <img src={Santiago} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
-                                <h5>David Villamil</h5>
-                                <small>Founder</small>
+                                <h5>Santiago Rojas</h5>
+                                <small>Founder at Cube Ventures VC</small>
                             </div>
                         </div>
                     </div>
@@ -50,13 +53,13 @@ function Testimonials() {
                                 <FaStar />
                                 <FaStar />
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae at aspernatur voluptates cum fuga facere, sequi sapiente qui deleniti iure ex harum, exercitationem libero odio adipisci hic aperiam nam.</p>
+                            <p>Alfred Design has revolutionized our product development process. Their design expertise and seamless integration into our workflow have not only improved our product aesthetics but also strengthened user engagement. I highly recommend their professional approach and commitment to excellence.</p>
                         </div>
                         <div className="review-person mt-4 mb-3 d-flex align-items-center">
-                            <img src={David} alt="" className='perfil-image rounded-circle'/>
+                            <img src={Juan} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
-                                <h5>David Villamil</h5>
-                                <small>Founder</small>
+                                <h5>Juan Caro</h5>
+                                <small>Product Manager</small>
                             </div>
                         </div>
                     </div>
@@ -71,13 +74,13 @@ function Testimonials() {
                                 <FaStar />
                                 <FaStar />
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae at aspernatur voluptates cum fuga facere, sequi sapiente qui deleniti iure ex harum, exercitationem libero odio adipisci hic aperiam nam.</p>
+                            <p>Alfred Design has been an indispensable asset in our digital marketing efforts. Their ability to create impactful visual content tailored to our brand's identity has significantly boosted our online presence. Their team's responsiveness and creativity make them a standout choice for design services.</p>
                         </div>
                         <div className="review-person mt-4 mb-3 d-flex align-items-center">
-                            <img src={David} alt="" className='perfil-image rounded-circle'/>
+                            <img src={Lina} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
-                                <h5>David Villamil</h5>
-                                <small>Founder</small>
+                                <h5>Lina Cuervo</h5>
+                                <small>Impact Investing Analyst</small>
                             </div>
                         </div>
                     </div>
