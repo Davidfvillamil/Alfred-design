@@ -1,5 +1,38 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+/* Declara las fuentes en tu CSS */
+@font-face {
+    font-family: 'Benzin';
+    src: url('../src/fonts/benzin-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../src/fonts/benzin-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Benzin';
+    src: url('../src/fonts/benzin-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Benzin';
+    src: url('../src/fonts/benzin-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Benzin';
+    src: url('../src/fonts/benzin-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
 
 
 :root{
@@ -8,14 +41,25 @@
     --color-brand-light: #6970dd;
     --color-brand-rgb: 78,87,212;
     --color-body:#727272;
-    --font-base:"ClashDisplay", sans-serif;
     --box-shadow:0px 15px 25px rgb(0,0,0,0.08);
     --transition: all 0.5s ease;
 }
 
+
+#hero{
+    background: linear-gradient(rgba(var(--color-brand), 0.507) rgba(0, 0, 0, 0.438));
+    background-image: url(../../assets/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Benzin', sans-serif;
+   font-optical-sizing: auto;
+ }
+
 .btn{
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: normal;
+    font-size: 10px;
     text-transform: uppercase;
     padding: 10px 24px;
 }
@@ -26,19 +70,8 @@
     border-color: var(--color-brand);
 }
 
-#hero{
-   background: linear-gradient(rgba(var(--color-brand), 0.507) rgba(0, 0, 0, 0.438));
-   background-image: url(../../assets/home1.jpg);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   min-height: 100vh;
-   font-family: "Syne", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
 
-.title-h1{
-    color: var(--color-brand-light);
-}
+
+
+
 

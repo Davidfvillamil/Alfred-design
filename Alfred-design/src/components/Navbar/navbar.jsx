@@ -1,13 +1,15 @@
 import React from 'react'
 import './navbar.css'
 
+import Logo from '../../assets/logo.png'
+
 function Navbar() {
   return (
     <>
         <nav className="navbar navbar-expand-lg bg-white sticky-top">
             <div className="container">
-                <a className="navbar-brand" href="#">
-                  Alfred-Design
+                <a className="navbar-brand" href="#hero">
+                  <img src={Logo} alt="" className="img-fluid"/>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
