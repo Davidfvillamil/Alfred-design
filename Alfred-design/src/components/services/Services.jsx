@@ -23,8 +23,8 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className="row g-4 text-center">
-                <div className="col-lg-4 col-sm-6">
+            <div className="row g-4 text-center ">
+                <div className="col-lg-4 col-sm-6 ">
                     <div className="service theme-shadow p-lg-5 p-4">
                         <div className="iconbox">
                             <FaTiktok/>

@@ -24,6 +24,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover; /* Mantiene la proporción de la imagen y se ajusta al tamaño del div */
+    border-radius: 8px;
 }
 
 .section-title{
