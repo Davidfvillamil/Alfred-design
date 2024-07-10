@@ -1,35 +1,35 @@
 /* Declara las fuentes en tu CSS */
 @font-face {
     font-family: 'Benzin';
-    src: url('../public/fonts/benzin-regular.ttf') format('truetype');
+    src: url('../fonts/benzin-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Benzin';
-    src: url('../public/fonts/benzin-medium.ttf') format('truetype');
+    src: url('../fonts/benzin-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Benzin';
-    src: url('../public/fonts/benzin-semibold.ttf') format('truetype');
+    src: url('../fonts/benzin-semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Benzin';
-    src: url('../public/fonts/benzin-bold.ttf') format('truetype');
+    src: url('../fonts/benzin-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Benzin';
-    src: url('../public/fonts/benzin-extrabold.ttf') format('truetype');
+    src: url('../fonts/benzin-extrabold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
