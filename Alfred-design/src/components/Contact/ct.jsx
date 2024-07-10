@@ -56,9 +56,9 @@ function Contact() {
           <div className="row">
               <div className="col-12 text-center">
                   <div className="section-title">
-                      <h1 className="display-4 fw-semibold text-white">Get in toch</h1>
+                      <h1 className="display-3 text-white">Get in toch</h1>
                       <div className="line bg-white"></div>
-                      <p className='text-white'>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination!</p>
+                      <p className='text-white'>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination</p>
                   </div>
               </div>
           </div>  

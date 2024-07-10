@@ -15,9 +15,9 @@ function Testimonials() {
             <div className="row">
                 <div className="col-12 text-center">
                     <div className="section-title">
-                        <h1 className="display-4 fw-semibold">What they say about us</h1>
+                        <h1 className="display-3 ">What they say about us</h1>
                         <div className="line"></div>
-                        <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination!</p>
+                        <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination</p>
                     </div>
                 </div>
             </div>  

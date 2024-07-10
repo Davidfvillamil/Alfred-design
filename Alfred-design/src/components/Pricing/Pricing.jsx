@@ -13,7 +13,7 @@ function Pricing() {
             <div className="row">
                 <div className="col-12 text-center">
                     <div className="section-title">
-                        <h1 className="display-4 fw-semibold">Pricing</h1>
+                        <h1 className="display-3 title">Pricing</h1>
                         <div className="line"></div>
                         <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination!</p>
                     </div>
@@ -23,8 +23,11 @@ function Pricing() {
                 <div className="col-lg-4 col-sm-6 mb-4">
                     <div className="pricing">
                         <div className="pricing-head p-4 bg-white theme-shadow">
-                            <h3 className='text-center'>Alfred DO it!</h3>
-                            <h2 className='display-6 text-center'>$990</h2>
+                            <h3 className='text-center display-7'>Alfred DO it!</h3>
+                            <div className='price-container'>
+                                <h2 className='text-center'>$990</h2>
+                                <span>Month</span>
+                            </div>
                             <div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -43,7 +46,7 @@ function Pricing() {
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Cloud Storage</p>
+                                    <p>Cloud Storage up to 15GB</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -51,8 +54,9 @@ function Pricing() {
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Bilingual Support:</p>
+                                    <p>Bilingual Support in English and Spanish</p>
                                 </div>
+                                
                             </div>
                             <p></p>
                         </div>
@@ -62,7 +66,10 @@ function Pricing() {
                     <div className="pricing">
                         <div className="pricing-head p-4 bg-white theme-shadow">
                             <h3 className='text-center'>Alfred CRUSH it! </h3>
-                            <h2 className='display-6 text-center'>$1650</h2>
+                            <div className='price-container'>
+                                <h2 className='display-6 text-center'>$1650</h2>
+                                <span>Month</span>
+                            </div>
                             <div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -77,11 +84,11 @@ function Pricing() {
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>24-Hour Turnaround</p>
+                                    <p>24-Hour Turnaround!</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Cloud Storage</p>
+                                    <p>Cloud Storage up to 25GB</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -100,7 +107,10 @@ function Pricing() {
                     <div className="pricing">
                         <div className="pricing-head p-4 bg-white theme-shadow">
                             <h3 className='text-center'>Alfred MASTER it!</h3>
-                            <h2 className='display-6 text-center'>$2900</h2>
+                            <div className='price-container'>
+                                <h2 className='display-6 text-center'>$2500</h2>
+                                <span>Month</span>
+                            </div>
                             <div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -119,7 +129,7 @@ function Pricing() {
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Cloud Storage</p>
+                                    <p>Cloud Storage upt to 50GB</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
