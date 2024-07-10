@@ -50,7 +50,7 @@ function Services() {
                             <FaAppStoreIos></FaAppStoreIos>
                         </div>
                         <h5 className='mt-4 mb-3'>Ux/Ui</h5>
-                        <p>Whether you need a website, app, or complex interface, we create intuitive designs that elevate user engagement and satisfaction.</p>
+                        <p>Whether you need a website, app, or complex interface, we create intuitive designs that elevate user engagement</p>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@ function Services() {
                             <BiLogoGmail></BiLogoGmail>
                         </div>
                         <h5 className='mt-4 mb-3'>Content Marketing Solutions</h5>
-                        <p>we specialize in creating professional and engaging email templates, newsletters, and blogs.</p>
+                        <p>we specialize in creating engaging email templates, newsletters, and blogs.</p>
                     </div>
                 </div>
             </div>
