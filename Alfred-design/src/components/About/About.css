@@ -1,4 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+/* Declara las fuentes en tu CSS */
+@font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
 :root{
     --color-dark: #212529;
     --color-brand: #4e57d4;
@@ -31,6 +65,11 @@
     margin-bottom: 60px;
 }
 
+.section-title h1{
+    font-family: 'Benzin';
+    font-weight: 800;
+}
+
 .section-title .line{
     width: 60px;
     height: 4px;
@@ -39,9 +78,11 @@
 }
 
 .section-title p{
-    max-width: 500px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Benzin';
+    font-size: 15px;
 }
 
 .iconbox{
@@ -56,3 +97,12 @@
     flex: none;
 }
 
+.about-body h1{
+    font-family: 'Benzin';
+}
+
+.about-body p{
+    font-family: 'Benzin';
+    font-weight: normal;
+    font-size: 15px;
+}

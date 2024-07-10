@@ -17,7 +17,7 @@ function Services() {
             <div className="row">
                 <div className="col-12 text-center">
                     <div className="section-title">
-                        <h1 className="display-4 fw-semibold">Awesome Services</h1>
+                        <h1 className="display-3">Awesome Services</h1>
                         <div className="line"></div>
                         <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination!</p>
                     </div>
@@ -39,7 +39,7 @@ function Services() {
                         <div className="iconbox">
                             <IoIosColorPalette></IoIosColorPalette>
                         </div>
-                        <h5 className='mt-4 mb-3'>Unforgettable Brand Design</h5>
+                        <h5 className='mt-4 mb-3'> Brand Design</h5>
                         <p>Comprehensive brand design services, from logos to brand manuals and full branding packages</p>
                     </div>
                 </div>

@@ -1,4 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/fonts/benzin-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
 
 :root{
     --color-dark: #212529;
@@ -46,6 +79,12 @@
     overflow: hidden;
     z-index: 2;
     border-radius: 8px;
+}
+
+.service h5{
+    font-family: 'Benzin';
+    font-size: large;
+    font-weight: bold;
 }
 
 .service::after{

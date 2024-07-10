@@ -17,9 +17,9 @@ function About() {
             <div className="row">
                 <div className="col-12 text-center">
                     <div className="section-title">
-                        <h1 className="display-4 fw-semibold">About us</h1>
+                        <h1 className="display-3 title">About us</h1>
                         <div className="line"></div>
-                        <p>Your Go-To Hub for Creative Excellence, with a Latin American Twist!</p>
+                        <p>Your Go -To Hub for Creative Excellence, with a Latin American Twist!</p>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ function About() {
                 <div className="col-lg-6">
                     <img src={About_foto} alt="" className="responsive-img"/>
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-5 about-body">
                     <h1 className='mt-4'>About Alfred</h1>
                     <p className='mt-3 mb-4'>Hey there! At Alfred, we're all about bringing you top-notch talent from Latin America, fully bilingual in English and Spanish. We believe in delivering top-quality work without breaking the bank. Here's why we’re your perfect match</p>
                     <div className='d-flex pt-4 mb-3'>
