@@ -38,7 +38,7 @@ function Pricing() {
                                     <p>Full Range of Design Services</p>
                                 </div>
                                 <div className='option-container'>
-                                    <FaCheckCircle className='icon-check'/><p>Up to 6 Active Requests</p>
+                                    <FaCheckCircle className='icon-check'/><p>Up to 3 Active Requests</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
