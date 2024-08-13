@@ -15,7 +15,7 @@ function Pricing() {
                     <div className="section-title">
                         <h1 className="display-3 title">Pricing</h1>
                         <div className="line"></div>
-                        <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination!</p>
+                        <p>Choose the plan that fits your needs and budget. Our packages offer flexible options to deliver top-quality design services tailored to your business</p>
                     </div>
                 </div>
             </div>  
@@ -31,7 +31,7 @@ function Pricing() {
                             <div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Up to 2 Brands</p>
+                                    <p>Up to 1 Brands</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -46,7 +46,7 @@ function Pricing() {
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Cloud Storage up to 15GB</p>
+                                    <p>Cloud Storage up to 5GB</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -67,13 +67,13 @@ function Pricing() {
                         <div className="pricing-head p-4 bg-white theme-shadow">
                             <h3 className='text-center'>Alfred CRUSH it! </h3>
                             <div className='price-container'>
-                                <h2 className='display-6 text-center'>$1650</h2>
+                                <h2 className='display-6 text-center'>$1690</h2>
                                 <span>Month</span>
                             </div>
                             <div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Up to 5 Brands</p>
+                                    <p>Unlimited Brands</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -88,7 +88,7 @@ function Pricing() {
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>Cloud Storage up to 25GB</p>
+                                    <p>Cloud Storage up to 20GB</p>
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
@@ -108,7 +108,7 @@ function Pricing() {
                         <div className="pricing-head p-4 bg-white theme-shadow">
                             <h3 className='text-center'>Alfred MASTER it!</h3>
                             <div className='price-container'>
-                                <h2 className='display-6 text-center'>$2500</h2>
+                                <h2 className='display-6 text-center'>$2900</h2>
                                 <span>Month</span>
                             </div>
                             <div>
@@ -137,7 +137,7 @@ function Pricing() {
                                 </div>
                                 <div className='option-container'>
                                     <FaCheckCircle className='icon-check'/>
-                                    <p>A 100% Dedicated Professional for Your Business</p>
+                                    <p>100% Dedicated Professional for your buesiness</p>
                                 </div>
                             </div>
                             <p></p>

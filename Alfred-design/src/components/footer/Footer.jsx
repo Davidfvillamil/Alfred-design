@@ -15,7 +15,7 @@ function Footer() {
                     <div className="col-lg-3 col-sm-6">
                         <a href="#"><img src="" alt="" />ALFRED</a>
                         <div className="line"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestias ad saepe provident.</p>
+                        <p>Thank you for visiting Alfred Design. Let’s create something amazing together!</p>
                         {/*}
                         <div>
                             <a href=""><BsInstagram /></a>
@@ -53,7 +53,9 @@ function Footer() {
                         <div className="line"></div>
                         <ul>
                             <li><a href="">Miami, Florida</a></li>
+                            {/*
                             <li><a href="">df.villamilmartinez@allfred.lat</a></li>
+                            */}
                             <li><a href="">(+57) 320-802-8073</a></li>
                         </ul>
                         
@@ -65,7 +67,7 @@ function Footer() {
             <div className="container">
                 <div className="row g-4 justify-content-between">
                     <div className="col-auto">
-                        <div className="pb-0">Copy right para todas las ocasiones</div>
+                        <div className="pb-0">© 2024 Alfred Design. All rights reserved.</div>
                     </div>
                     <div className="col-auto">
                         <div className="pb-0">Designed by Allfred</div>

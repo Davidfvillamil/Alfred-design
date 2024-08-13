@@ -9,10 +9,12 @@ function Hero() {
                 <div className="row">
                     <div className="col-12">
                         <h1 className='text-uppercase fw-bold display-1 text-white'>Alfred will do it!</h1>
-                        <h5 className='text-white mt-3 mb-4 display-7'>Monthly Design Subscription for Your Business</h5>
+                        <h5 className='text-white mt-3 mb-4 display-7'>Alfred will do it!
+                            Monthly Design Subscription for Your Business
+                        </h5>
                         <div>
                             <a href="#contact" className='btn btn-brand me-2'>Get Started</a>
-                            <a href="#portafolio" className='btn btn-light ms-2'>Check portafolio</a>
+                            <a href="#portafolio" className='btn btn-light ms-2'>Check portfolio</a>
                         </div>
                     </div>
                 </div>

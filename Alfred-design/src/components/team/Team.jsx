@@ -14,7 +14,7 @@ function Team() {
                     <div className="section-title">
                         <h1 className="display-3">Team Members</h1>
                         <div className="line"></div>
-                        <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination</p>
+                        <p>Get to know the creative minds behind Alfred! Our talented team of designers, strategists, and innovators is here to bring your ideas to life and elevate your brand</p>
                     </div>
                 </div>
             </div>  
@@ -30,17 +30,7 @@ function Team() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
-                    <div className="team-member image-zoom">
-                        <div className="image-zoom-wrapper">
-                            <img src={Optimus} alt="" />
-                        </div>
-                        <div className="team-member-content">
-                            <h4 className='text-white'>Optimus Villamil</h4>
-                            <p className='mb-0 text-white'>CHO (Chief Happiness Officer)</p>
-                        </div>
-                    </div>
-                </div>
+                
                 <div className="col-md-4">
                     <div className="team-member image-zoom">
                         <div className="image-zoom-wrapper">
@@ -49,6 +39,18 @@ function Team() {
                         <div className="team-member-content">
                             <h4 className='text-white'>Manuel Yepés</h4>
                             <p className='mb-0 text-white'>Head Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4">
+                    <div className="team-member image-zoom">
+                        <div className="image-zoom-wrapper">
+                            <img src={Optimus} alt="" />
+                        </div>
+                        <div className="team-member-content">
+                            <h4 className='text-white'>Optimus Villamil</h4>
+                            <p className='mb-0 text-white'>CHO (Chief Happiness Officer)</p>
                         </div>
                     </div>
                 </div>

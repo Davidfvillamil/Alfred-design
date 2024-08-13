@@ -19,7 +19,7 @@ function Services() {
                     <div className="section-title">
                         <h1 className="display-3">Awesome Services</h1>
                         <div className="line"></div>
-                        <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination!</p>
+                        <p>Take your brand to the next level with our killer design services. We’re all about unleashing creativity that brings your ideas to life and pushes your brand way beyond the norm!</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ function Services() {
                             <FaPhotoVideo></FaPhotoVideo>
                         </div>
                         <h5 className='mt-4 mb-3'>Video Edition</h5>
-                        <p>we help you levelup your brand with Brand Videos, Tutorials, Demos, MVPs, Podcasts, and More</p>
+                        <p>We help you level up your brand with brand videos, tutorials, demos, MVPs, podcasts, and more</p>
                     </div>
                 </div>
 

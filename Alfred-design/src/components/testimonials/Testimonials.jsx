@@ -17,7 +17,7 @@ function Testimonials() {
                     <div className="section-title">
                         <h1 className="display-3 ">What they say about us</h1>
                         <div className="line"></div>
-                        <p>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination</p>
+                        <p>Check out the buzz! Our awesome clients have shared their experiences, and we couldn’t be prouder. See how we’ve helped bring their visions to life.</p>
                     </div>
                 </div>
             </div>  
@@ -32,7 +32,7 @@ function Testimonials() {
                                 <FaStar />
                                 <FaStar />
                             </div>
-                            <p>Alfred Design has been pivotal in our strategic investments. Their ability to translate complex ideas into captivating visual designs has greatly enhanced our portfolio companies' market appeal. Their team's creativity and dedication to quality design are unparalleled</p>
+                            <p>Alfred Design has been pivotal in our strategic investments. Their ability to translate complex ideas into captivating visual designs has greatly enhanced the market appeal of our portfolio companies. The creativity and dedication to quality design of their team are unparalleled</p>
                         </div>
                         <div className="review-person mt-4 mb-3 d-flex align-items-center">
                             <img src={Santiago} alt="" className='perfil-image rounded-circle'/>

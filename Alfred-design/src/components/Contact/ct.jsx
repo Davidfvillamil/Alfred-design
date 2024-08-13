@@ -58,7 +58,7 @@ function Contact() {
                   <div className="section-title">
                       <h1 className="display-3 text-white">Get in toch</h1>
                       <div className="line bg-white"></div>
-                      <p className='text-white'>Empower your brand with our limitless design service. Experience creativity that brings your vision to life, beyond imagination</p>
+                      <p className='text-white'>We’d love to hear from you! Whether you have questions, need more info, or are ready to start your next project, our team is here to help. Drop us a message, and let’s make something awesome together!</p>
                   </div>
               </div>
           </div>  
@@ -77,7 +77,7 @@ function Contact() {
                   <div className="form-group col-lg-12">
                     <select id="options" name="options" className="form-group col-lg-12" placeholder = "prefered option">
                         <option value="opcion_990_USD">I'm intered on the 990 USD plan</option>
-                        <option value="opcion_1650_USD">I'm intered on the 1650 USD plan</option>
+                        <option value="opcion_1690_USD">I'm intered on the 1690 USD plan</option>
                         <option value="opcion_2900_USD">I'm intered on the 2900 USD plan</option>
                     </select>
                   </div>
