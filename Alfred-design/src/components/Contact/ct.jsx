@@ -56,9 +56,9 @@ function Contact() {
           <div className="row">
               <div className="col-12 text-center">
                   <div className="section-title">
-                      <h1 className="display-3 text-white">Get in toch</h1>
+                      <h1 className="display-3 text-white">Get started here!</h1>
                       <div className="line bg-white"></div>
-                      <p className='text-white'>We’d love to hear from you! Whether you have questions, need more info, or are ready to start your next project, our team is here to help. Drop us a message, and let’s make something awesome together!</p>
+                      <p className='text-white'>Start by telling us about your business, where you need help, and how you think Alfred can support you in achieving your goals</p>
                   </div>
               </div>
           </div>  
