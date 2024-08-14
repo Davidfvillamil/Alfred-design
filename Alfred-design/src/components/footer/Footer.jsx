@@ -31,7 +31,7 @@ function Footer() {
                             <li><a href="">Ux/Ui</a></li>
                             <li><a href="">Video edition</a></li>
                             <li><a href="">design</a></li>
-                            <li><a href="">Video creationss</a></li>
+                            <li><a href="">Video creations</a></li>
                         </ul>
                         
                     </div>
@@ -40,10 +40,11 @@ function Footer() {
                         <h5>ABOUT</h5>
                         <div className="line"></div>
                         <ul>
-                            <li><a href="">Pricing</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Team</a></li>
-                            <li><a href="">Video creation</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#portafolio">Porftfolio</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
                         </ul>
                         
                     </div>
