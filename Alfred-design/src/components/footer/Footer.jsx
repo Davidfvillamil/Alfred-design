@@ -53,11 +53,12 @@ function Footer() {
                         <h5>CONTACT US</h5>
                         <div className="line"></div>
                         <ul>
-                            <li><a href="">Miami, Florida</a></li>
+                            <li>Miami, Florida</li>
                             {/*
                             <li><a href="">df.villamilmartinez@allfred.lat</a></li>
                             */}
-                            <li><a href="">(+57) 320-802-8073</a></li>
+                            <li>(+57) 320-802-8073</li>
+                            <li>david@alllfred.com</li>
                         </ul>
                         
                     </div>
