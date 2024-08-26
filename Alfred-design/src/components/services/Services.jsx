@@ -30,7 +30,7 @@ function Services() {
                             <FaTiktok/>
                         </div>
                         <h5 className='mt-4 mb-3'>Social media</h5>
-                        <p>We deliver engaging social media content designed to captivate your audience on LinkedIn, Instagram, TikTok</p>
+                        <p>We deliver engaging social media content designed to captivate your audience on LinkedIn, Instagram and TikTok</p>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ function Services() {
                             <IoIosColorPalette></IoIosColorPalette>
                         </div>
                         <h5 className='mt-4 mb-3'> Brand Design</h5>
-                        <p>Comprehensive brand design services, from logos to brand manuals and full branding packages</p>
+                        <p>Comprehensive brand design services, from logos, brand manuals to full branding packages</p>
                     </div>
                 </div>
 

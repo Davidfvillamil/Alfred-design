@@ -54,7 +54,7 @@ function Pricing() {
                                 <div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
-                                        <p>Up to 1 Brands</p>
+                                        <p>Up to 1 Brand</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
