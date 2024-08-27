@@ -93,9 +93,24 @@
     
 }
 
+
+
 .form-control:focus, 
 select:focus {
     box-shadow: none;
     border-color: var(--color-brand);
     outline: none;
 }
+
+.select-element{
+    border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+    .select-element {
+      width: 100%;
+      padding: 8px;
+    }
+}
+
+

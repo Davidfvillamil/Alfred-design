@@ -75,7 +75,7 @@ function Contact() {
                     <input type="email"  className='form-control' placeholder='Enter email' name="user_email"/>
                   </div>
                   <div className="form-group col-lg-12">
-                    <select id="options" name="options" className="form-group col-lg-12" placeholder = "prefered option">
+                    <select id="options" name="options" className="form-group col-lg-12 select-element" placeholder = "prefered option">
                         <option value="opcion_890_USD">I'm interested in the Alfred do it plan  (890 USD/month plan billed anually)</option>
                         <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (1670 USD/month plan billed anually)</option>
                         <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (2900 USD/month plan billed anually)</option>
