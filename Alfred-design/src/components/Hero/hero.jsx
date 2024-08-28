@@ -8,7 +8,7 @@ function Hero() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h1 className='text-uppercase fw-bold display-1 text-white'>Alfred will do it!</h1>
+                        <h1 className='text-uppercase fw-bold display-1 text-white'>Alfred will design anything!</h1>
                         <h5 className='text-white mt-3 mb-4 display-7'>
                         Unlimited Design Subscription for Your Business for as Little as $20,000/Year
                         </h5>
