@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'; // Importa Link para la navegación
 
 import Portafolio1 from '../../assets/diseno1.png';
 import Portafolio2 from '../../assets/diseno4.png';
-import Portafolio3 from '../../assets/portafolio3.jpg';
-import Portafolio4 from '../../assets/portafolio4.jpg';
-import Portafolio5 from '../../assets/portafolio5.jpg';
+import Portafolio3 from '../../assets/diseno7.png';
+import Portafolio4 from '../../assets/diseno6.png';
+import Portafolio5 from '../../assets/diseno8.png';
 import Portafolio6 from '../../assets/diseno2.png';
 
 import { FaSearch } from "react-icons/fa";
@@ -37,7 +37,7 @@ function Portafolio() {
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio3} alt="imagen de portafolio 3" className='img-portafolio'/>
+                <img src={Portafolio3} alt="imagen de portafolio 3" className='img-portafolio image-adjusted'/>
               </div>
               <a href={Portafolio3} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
             </div>
@@ -46,7 +46,7 @@ function Portafolio() {
           <div className="col-md-4">
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio4} alt="imagen de portafolio 4" className='img-portafolio'/>
+                <img src={Portafolio4} alt="imagen de portafolio 4" className='img-portafolio image-adjusted'/>
               </div>
               <a href={Portafolio4} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
             </div>
@@ -69,7 +69,7 @@ function Portafolio() {
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio5} alt="imagen de portafolio 5" className='img-portafolio'/>
+                <img src={Portafolio5} alt="imagen de portafolio 5" className='img-portafolio image-adjusted'/>
               </div>
               <a href={Portafolio5} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
             </div>

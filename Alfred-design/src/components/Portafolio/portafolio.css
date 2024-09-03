@@ -80,9 +80,15 @@
     border-radius: 8px;
 }
 
+.image-zoom-wrapper .image-adjusted{
+    height: 280px;
+}
+
 .image-zoom:hover .image-zoom-wrapper img{
     transform: scale(1.1);
 }
+
+
 
 .portafolio-item .iconbox{
     background-color: var(--color-brand);
