@@ -1,7 +1,7 @@
 import React from 'react'
-import David from '../../assets/yo_formal.jpeg'
+import David from '../../assets/Dave.jpg'
 import Optimus from '../../assets/Optimus.jpg'
-import Manuel from '../../assets/manuelfoto.jpg'
+import Manuel from '../../assets/Manu.jpg'
 
 import './team.css'
 

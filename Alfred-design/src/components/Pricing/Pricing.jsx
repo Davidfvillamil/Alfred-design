@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import './pricing.css';
 import { FaCheckCircle } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
+
 
 function Pricing() {
 
     const [isMonthly, setIsMonthly] = useState(true);
     const [isYearly, setIsYearly] = useState(false);
+
+   
 
     return (
         <section id='pricing' className='section-padding bg-light'>
@@ -39,6 +44,7 @@ function Pricing() {
                     >
                         Yearly
                     </button>
+                    
                 </div>
                 
                 {isMonthly ? 

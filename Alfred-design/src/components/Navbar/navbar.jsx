@@ -6,7 +6,7 @@ import Logo from '../../assets/logo.png'
 function Navbar() {
   return (
     <>
-        <nav className="navbar navbar-expand-lg bg-white sticky-top">
+        <nav className="navbar navbar-expand-lg bg-white sticky-top" id='navbar'>
             <div className="container">
                 <a className="navbar-brand" href="#hero">
                   <img src={Logo} alt="" className="img-fluid"/>
