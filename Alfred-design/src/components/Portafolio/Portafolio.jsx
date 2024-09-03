@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Importa Link para la navegación
 
-import Portafolio1 from '../../assets/portafolio1.jpg';
-import Portafolio2 from '../../assets/portafolio2.jpg';
+import Portafolio1 from '../../assets/diseno1.png';
+import Portafolio2 from '../../assets/diseno4.png';
 import Portafolio3 from '../../assets/portafolio3.jpg';
 import Portafolio4 from '../../assets/portafolio4.jpg';
 import Portafolio5 from '../../assets/portafolio5.jpg';
-import Portafolio6 from '../../assets/portafolio6.jpg';
+import Portafolio6 from '../../assets/diseno2.png';
 
 import { FaSearch } from "react-icons/fa";
 
@@ -79,7 +79,7 @@ function Portafolio() {
         {/* Botón para redirigir a Trabajos Hechos */}
         <div className="row">
           <div className="col-12 text-center mt-5">
-            <Link to="/trabajos-hechos" className="btn btn-primary">Ver Trabajos Hechos</Link>
+            <Link to="/trabajos-hechos" className="btn btn-primary">Check out portfolio</Link>
           </div>
         </div>
 
