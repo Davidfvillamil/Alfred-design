@@ -58,7 +58,7 @@ function Contact() {
                   <div className="section-title">
                       <h1 className="display-3 text-white">Get started here!</h1>
                       <div className="line bg-white"></div>
-                      <p className='text-white'>Start by telling us about your business, where you need help, and how you think Alfred can support you in achieving your goals</p>
+                      <p className='text-white'>If you want a free sample, just leave a “I want a free sample!!!” Request a free sample of our services and see the quality of our work for yourself. Let us know which plan you're interested in or if you have any specific questions.</p>
                   </div>
               </div>
           </div>  

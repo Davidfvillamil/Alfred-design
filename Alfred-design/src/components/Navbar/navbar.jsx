@@ -38,7 +38,7 @@ function Navbar() {
                         <a className="nav-link" href="#contact">Contact</a>
                       </li>  
                   </ul>
-                  <a href="#contact" className='btn btn-brand ms-lg-3'>Get Started</a>
+                  <a href="#contact" className='btn btn-brand ms-lg-3'>Get Started for free</a>
                 </div>
             </div>
         </nav>
