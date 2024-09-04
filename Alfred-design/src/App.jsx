@@ -11,6 +11,7 @@ import Team from './components/team/Team';
 import Footer from './components/footer/Footer';
 import Contact from './components/Contact/ct.jsx';
 import Pricing from './components/Pricing/Pricing.jsx';
+import Faqs from './components/FAQS/faqs.jsx';
 import TrabajosHechos from './components/TrabajosHechos/TrabajosHechos.jsx'; // Importa el nuevo componente
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Pricing />
             <Testimonials />
             <Team />
+            <Faqs/>
             <Contact />
             <Footer />
           </>
