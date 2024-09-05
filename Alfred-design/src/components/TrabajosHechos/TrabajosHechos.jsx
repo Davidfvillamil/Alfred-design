@@ -37,7 +37,7 @@ import HappyBerry4 from '../../assets/Imágenes Alfred/images/Hpb4.jpg'
 import HappyBerry5 from '../../assets/Imágenes Alfred/images/Hpb5.jpg'
 import HappyBerry6 from '../../assets/Imágenes Alfred/images/Hpb6.jpg'
 import HappyBerry7 from '../../assets/Imágenes Alfred/images/Hpb7.jpg'
-import Navbar from '../Navbar/Navbar'; // Importamos el componente del Navbar
+import Navbar from '../Navbar/navbar' // Importamos el componente del Navbar
 
 function TrabajosHechos() {
 
