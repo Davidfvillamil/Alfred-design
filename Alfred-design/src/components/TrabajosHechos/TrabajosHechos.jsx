@@ -1,29 +1,29 @@
 import React, { useState } from 'react';
 import './TrabajosHechos.css';
 import Imagen from '../../assets/home.jpg';
-import Colibri1 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/colibri1.jpg';
-import Colibri2 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/Colibri2.jpg';
-import Colibri3 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/Colibri3.jpg';
-import Colibri4 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/Colibri4.jpg';
-import Colibri5 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/Colibri5.jpg';
-import Colibri6 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/Colibri6.jpg';
-import Colibri7 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/diseno5.jpg';
-import Colibri8 from '../../assets/Imágenes Alfred/Dulce Colibri╠ü/Colibri8.jpg';
-import UxUi1 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui1.jpg'
-import UxUi2 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui2.jpg'
-import UxUi3 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui3.jpg'
-import UxUi4 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui4.jpg'
-import UxUi5 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui5.jpg'
-import UxUi6 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui6.jpg'
-import UxUi7 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui7.jpg'
-import UxUi8 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui8.jpg'
-import UxUi9 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui9.jpg'
-import UxUi10 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui10.jpg'
-import UxUi11 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui11.jpg'
-import UxUi12 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui12.jpg'
-import UxUi13 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui13.jpg'
-import UxUi14 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui14.jpg'
-import UxUi15 from '../../assets/Imágenes Alfred/2121 Gallery WEB/uxui15.jpg'
+import Colibri1 from '../../assets/Imágenes Alfred/images/colibri1.jpg';
+import Colibri2 from '../../assets/Imágenes Alfred/images/Colibri2.jpg';
+import Colibri3 from '../../assets/Imágenes Alfred/images/Colibri3.jpg';
+import Colibri4 from '../../assets/Imágenes Alfred/images/Colibri4.jpg';
+import Colibri5 from '../../assets/Imágenes Alfred/images/Colibri5.jpg';
+import Colibri6 from '../../assets/Imágenes Alfred/images/Colibri6.jpg';
+import Colibri7 from '../../assets/Imágenes Alfred/images/diseno5.jpg';
+import Colibri8 from '../../assets/Imágenes Alfred/images/Colibri8.jpg';
+import UxUi1 from '../../assets/Imágenes Alfred/images/uxui1.jpg'
+import UxUi2 from '../../assets/Imágenes Alfred/images/uxui2.jpg'
+import UxUi3 from '../../assets/Imágenes Alfred/images/uxui3.jpg'
+import UxUi4 from '../../assets/Imágenes Alfred/images/uxui4.jpg'
+import UxUi5 from '../../assets/Imágenes Alfred/images/uxui5.jpg'
+import UxUi6 from '../../assets/Imágenes Alfred/images/uxui6.jpg'
+import UxUi7 from '../../assets/Imágenes Alfred/images/uxui7.jpg'
+import UxUi8 from '../../assets/Imágenes Alfred/images/uxui8.jpg'
+import UxUi9 from '../../assets/Imágenes Alfred/images/uxui9.jpg'
+import UxUi10 from '../../assets/Imágenes Alfred/images/uxui10.jpg'
+import UxUi11 from '../../assets/Imágenes Alfred/images/uxui11.jpg'
+import UxUi12 from '../../assets/Imágenes Alfred/images/uxui12.jpg'
+import UxUi13 from '../../assets/Imágenes Alfred/images/uxui13.jpg'
+import UxUi14 from '../../assets/Imágenes Alfred/images/uxui14.jpg'
+import UxUi15 from '../../assets/Imágenes Alfred/images/uxui15.jpg'
 import AAW1 from '../../assets/Imágenes Alfred/images/AAW1.jpg'
 import AAW2 from '../../assets/Imágenes Alfred/images/AAW2.jpg'
 import AAW3 from '../../assets/Imágenes Alfred/images/AAW3.jpg'
