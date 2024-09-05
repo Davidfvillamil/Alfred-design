@@ -17,10 +17,11 @@ import TrabajosHechos from './components/TrabajosHechos/TrabajosHechos.jsx'; // 
 function App() {
   return (
     <Router>
-      <Navbar />
+      
       <Routes>
         <Route path="/" element={
           <>
+            <Navbar />
             <Hero />
             <About />
             <Services />
