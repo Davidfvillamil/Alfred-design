@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import './TrabajosHechos.css';
 import Imagen from '../../assets/home.jpg';
 import Colibri1 from '../../assets/Imágenes Alfred/images/colibri1.jpg';
-import Colibri2 from '../../assets/Imágenes Alfred/images/Colibri2.jpg';
-import Colibri3 from '../../assets/Imágenes Alfred/images/Colibri3.jpg';
-import Colibri4 from '../../assets/Imágenes Alfred/images/Colibri4.jpg';
-import Colibri5 from '../../assets/Imágenes Alfred/images/Colibri5.jpg';
-import Colibri6 from '../../assets/Imágenes Alfred/images/Colibri6.jpg';
+import Colibri2 from '../../assets/Imágenes Alfred/images/colibri2.jpg';
+import Colibri3 from '../../assets/Imágenes Alfred/images/colibri3.jpg';
+import Colibri4 from '../../assets/Imágenes Alfred/images/colibri4.jpg';
+import Colibri5 from '../../assets/Imágenes Alfred/images/colibri5.jpg';
+import Colibri6 from '../../assets/Imágenes Alfred/images/colibri6.jpg';
 import Colibri7 from '../../assets/Imágenes Alfred/images/diseno5.jpg';
-import Colibri8 from '../../assets/Imágenes Alfred/images/Colibri8.jpg';
+import Colibri8 from '../../assets/Imágenes Alfred/images/colibri8.jpg';
 import UxUi1 from '../../assets/Imágenes Alfred/images/uxui1.jpg'
 import UxUi2 from '../../assets/Imágenes Alfred/images/uxui2.jpg'
 import UxUi3 from '../../assets/Imágenes Alfred/images/uxui3.jpg'
