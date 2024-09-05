@@ -1,79 +1,98 @@
 /* Declara las fuentes en tu CSS */
 @font-face {
-    font-family: 'Benzin';
-    src: url('../fonts/benzin-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Benzin';
-    src: url('../fonts/benzin-medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Benzin';
-    src: url('../fonts/benzin-semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Benzin';
-    src: url('../fonts/benzin-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Benzin';
-    src: url('../fonts/benzin-extrabold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-:root{
-    --color-dark: #212529;
-    --color-brand: #4e57d4;
-    --color-brand-light: #6970dd;
-    --color-brand-rgb: 78,87,212;
-    --color-body:#727272;
-    --font-base:"ClashDisplay", sans-serif;
-    --box-shadow:0px 15px 25px rgb(0,0,0,0.08);
-    --transition: all 0.3s ease-in-out;
-}
-.section-padding{
-    padding-top: 140px;
-    padding-bottom: 140px;
+  font-family: 'Benzin';
+  src: url('../fonts/benzin-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.image-zoom{
-    position: relative;
-    overflow: hidden;
+@font-face {
+  font-family: 'Benzin';
+  src: url('../fonts/benzin-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
-.image-zoom-wrapper{
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100%;
+@font-face {
+  font-family: 'Benzin';
+  src: url('../fonts/benzin-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
 
-.team-member-content{
-    background-color: var(--color-brand);
-    position: absolute;
-    bottom: -24px;
-    left: 50%;
-    width: calc(100% - 50px);
-    transform: translate(-50%);
-    padding: 24px;
-    transition: var(--transition);
-    opacity: 0;
-    font-family: 'Benzin';
+@font-face {
+  font-family: 'Benzin';
+  src: url('../fonts/benzin-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
-.team-member:hover .team-member-content{
-    opacity: 1;
-    bottom: 24px;
+@font-face {
+  font-family: 'Benzin';
+  src: url('../fonts/benzin-extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  --color-dark: #212529;
+  --color-brand: #4e57d4;
+  --color-brand-light: #6970dd;
+  --color-brand-rgb: 78,87,212;
+  --color-body: #727272;
+  --font-base: "ClashDisplay", sans-serif;
+  --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+  --transition: all 0.3s ease-in-out;
+}
+
+.section-padding {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+/* Estilos específicos para el componente de Team */
+#team .image-zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+#team .image-zoom-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#team .image-zoom-wrapper img {
+  transition: var(--transition);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Ajuste de las esquinas */
+}
+
+#team .team-member-content {
+  background-color: var(--color-brand);
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  width: calc(100% - 50px);
+  transform: translateX(-50%);
+  padding: 24px;
+  transition: var(--transition);
+  opacity: 0;
+  font-family: 'Benzin';
+  border-radius: 8px;
+}
+
+#team .team-member:hover .team-member-content {
+  opacity: 1;
+  bottom: 24px;
+}
+
+#team .team-member-content h4,
+#team .team-member-content p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
