@@ -42,7 +42,42 @@ import Navbar from '../Navbar/navbar' // Importamos el componente del Navbar
 function TrabajosHechos() {
 
   const Images = [
-    {src:Colibri1},{src:Colibri2},{src:Colibri3},{src:Colibri4},{src:Colibri5},{src:Colibri6},{src:Colibri7},{src:Colibri8},{src:UxUi1},{src:UxUi2},{src:UxUi3},{src:UxUi4},{src:UxUi5},{src:UxUi6},{src:UxUi7},{src:UxUi8},{src:UxUi9},{src:UxUi10},{src:UxUi11},{src:UxUi12},{src:UxUi13},{src:UxUi14},{src:UxUi15},{src:AAW1},{src:AAW2},{src:AAW3},{src:AAW4},{src:AAW5},{src:AAW6},{src:HappyBerry1},{src:HappyBerry2},{src:HappyBerry3},{src:HappyBerry4},{src:HappyBerry5},{src:HappyBerry6},{src:HappyBerry7}
+    {src:Colibri1, description: 'Brand Design'},
+    {src:Colibri2, description: 'Merchandise design '},
+    {src:Colibri3, description: 'Merchandise design ',},
+    {src:Colibri4, description: 'Merchandise design ', },
+    {src:Colibri5, description: 'Merchandise design ',},
+    {src:Colibri6, description: 'Merchandise design ', },
+    {src:Colibri7, description: 'Brand Design',},
+    {src:Colibri8, description: 'Packaging Design',},
+    {src:UxUi1, description: 'Ux/Ui',},
+    {src:UxUi2, description: 'Ux/Ui',},
+    {src:UxUi3, description: 'Ux/Ui',},
+    {src:UxUi4, description: 'Ux/Ui', },
+    {src:UxUi5, description: 'Ux/Ui', },
+    {src:UxUi6, description: 'Ux/Ui', },
+    {src:UxUi7, description: 'Ux/Ui', },
+    {src:UxUi8, description: 'Ux/Ui',},
+    {src:UxUi9, description: 'Ux/Ui',},
+    {src:UxUi10, description: 'Ux/Ui',},
+    {src:UxUi11, description: 'Ux/Ui',},
+    {src:UxUi12, description: 'Ux/Ui',},
+    {src:UxUi13, description: 'Ux/Ui',},
+    {src:UxUi14, description: 'Ux/Ui',},
+    {src:UxUi15, description: 'Ux/Ui',},
+    {src:AAW1, description: 'Brand Design',},
+    {src:AAW2, description: 'Infographic Design',},
+    {src:AAW3, description: 'Merchandise design'},
+    {src:AAW4, description: 'Merchandise design'},
+    {src:AAW5, description: 'Merchandise design'},
+    {src:AAW6,description: 'Merchandise design'},
+    {src:HappyBerry1, description: 'Packaging Design'},
+    {src:HappyBerry2, description: 'Brand Design'},
+    {src:HappyBerry3, description: 'Brand Design'},
+    {src:HappyBerry4, description: 'Packaging Design'},
+    {src:HappyBerry5, description: 'Packaging Design'},
+    {src:HappyBerry6, description: 'Packaging Design'},
+    {src:HappyBerry7, description: 'Packaging Design'}
   ]
   
 
@@ -86,8 +121,8 @@ function TrabajosHechos() {
                     <img src={image.src} className='img-trabajo' />
                   </div>
                   <div className="trabajo-details">
-                    <h5>titulo</h5>
-                    <p>titulo</p>
+                    <h5>{image.description}</h5>
+                    <p>{image.brand}</p>
                   </div>
                 </div>
               </div>
