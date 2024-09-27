@@ -54,7 +54,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center display-7'>Alfred DO it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='text-center'>$990</h2>
+                                    <h2 className='text-center'>$1000</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -67,7 +67,7 @@ function Pricing() {
                                         <p>Full Range of Design Services</p>
                                     </div>
                                     <div className='option-container'>
-                                        <FaCheckCircle className='icon-check'/><p>Up to 2 Active Requests</p>
+                                        <FaCheckCircle className='icon-check'/><p>Up to 3 Active Requests</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -95,7 +95,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center'>Alfred CRUSH it! </h3>
                                 <div className='price-container'>
-                                    <h2 className='display-6 text-center'>$1790</h2>
+                                    <h2 className='display-6 text-center'>$2000</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -108,7 +108,7 @@ function Pricing() {
                                         <p>Full Range of Design Services</p>
                                     </div>
                                     <div className='option-container'>
-                                        <FaCheckCircle className='icon-check'/><p>Up to 8 Active Requests</p>
+                                        <FaCheckCircle className='icon-check'/><p>Up to 9 Active Requests</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -136,7 +136,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center'>Alfred MASTER it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='display-6 text-center'>$3000</h2>
+                                    <h2 className='display-6 text-center'>$3500</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -149,7 +149,7 @@ function Pricing() {
                                         <p>Full Range of Design Services</p>
                                     </div>
                                     <div className='option-container'>
-                                        <FaCheckCircle className='icon-check'/><p>Up to 10 Active Requests</p>
+                                        <FaCheckCircle className='icon-check'/><p>Up to 15 Active Requests</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -180,7 +180,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center display-7'>Alfred DO it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='text-center'>$890</h2>
+                                    <h2 className='text-center'>$900</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -221,7 +221,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center'>Alfred CRUSH it! </h3>
                                 <div className='price-container'>
-                                    <h2 className='display-6 text-center'>$1670</h2>
+                                    <h2 className='display-6 text-center'>$1800</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -275,7 +275,7 @@ function Pricing() {
                                         <p>Full Range of Design Services</p>
                                     </div>
                                     <div className='option-container'>
-                                        <FaCheckCircle className='icon-check'/><p>Up to 10 Active Requests</p>
+                                        <FaCheckCircle className='icon-check'/><p>Up to 15 Active Requests</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
