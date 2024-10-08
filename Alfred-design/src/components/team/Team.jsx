@@ -26,7 +26,7 @@ function Team() {
                         </div>
                         <div className="team-member-content">
                             <h4 className='text-white'>David Villamil</h4>
-                            <p className='mb-0 text-white'>CEO</p>
+                            <p className='mb-0 text-white'>CEO & Founder</p>
                         </div>
                     </div>
                 </div>

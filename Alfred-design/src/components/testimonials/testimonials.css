@@ -76,3 +76,8 @@
     text-transform: uppercase;
     color: var(--color-brand);
 }
+
+.review-person h5 a{
+  text-decoration: none;
+  color: #212529;
+}

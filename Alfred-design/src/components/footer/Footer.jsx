@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'; // Importa Link para la navegación
+
 import { BsInstagram } from "react-icons/bs";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaTiktok } from "react-icons/fa";
@@ -28,10 +30,10 @@ function Footer() {
                         <h5 className='mb-0 text-white'>SERVICES</h5>
                         <div className="line"></div>
                         <ul>
-                            <li><a href="">Ux/Ui</a></li>
-                            <li><a href="">Video edition</a></li>
-                            <li><a href="">design</a></li>
-                            <li><a href="">Video creations</a></li>
+                            <li><Link to="/trabajos-hechos">Ux/ui</Link></li>
+                            <li><Link to="/trabajos-hechos">Brand Design</Link></li>
+                            <li><Link to="/trabajos-hechos">Infographics</Link></li>
+                            <li><Link to="/trabajos-hechos">Social media content</Link></li>
                         </ul>
                         
                     </div>

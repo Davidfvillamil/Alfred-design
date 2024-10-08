@@ -58,7 +58,7 @@ function Contact() {
                   <div className="section-title">
                       <h1 className="display-3 text-white">Get started here!</h1>
                       <div className="line bg-white"></div>
-                      <p className='text-white'>If you want a free sample, just leave a “I want a free sample!!!” Request a free sample of our services and see the quality of our work for yourself. Let us know which plan you're interested in or if you have any specific questions.</p>
+                      <p className='text-white'>If you'd like to try our services, simply leave us a message saying 'I want a free sample!' and we'll get back to you. You'll get a firsthand look at the quality of our work. Let us know which plan interests you, or feel free to ask any questions</p>
                   </div>
               </div>
           </div>  
@@ -75,13 +75,16 @@ function Contact() {
                     <input type="email"  className='form-control' placeholder='Enter email' name="user_email"/>
                   </div>
                   <div className="form-group col-lg-12">
+                    <input type="Phone"  className='form-control' placeholder='Enter your phone number' name="user_phone"/>
+                  </div>
+                  <div className="form-group col-lg-12">
                     <select id="options" name="options" className="form-group col-lg-12 select-element" placeholder = "prefered option">
-                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  (890 USD/month plan billed anually)</option>
-                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (1670 USD/month plan billed anually)</option>
+                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  (900 USD/month plan billed anually)</option>
+                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (1800 USD/month plan billed anually)</option>
                         <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (2900 USD/month plan billed anually)</option>
-                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  (990 USD/month plan billed monthly)</option>
-                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (1790 USD/month plan billed monthly)</option>
-                        <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (3000 USD/month plan billed monthly)</option>
+                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  (1000 USD/month plan billed monthly)</option>
+                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (2000 USD/month plan billed monthly)</option>
+                        <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (3500 USD/month plan billed monthly)</option>
                     </select>
                   </div>
                   <div className="form-group col-lg-12">

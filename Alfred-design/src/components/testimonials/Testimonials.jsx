@@ -37,7 +37,7 @@ function Testimonials() {
                         <div className="review-person mt-4 mb-3 d-flex align-items-center">
                             <img src={Santiago} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
-                                <h5>Santiago Rojas</h5>
+                                <h5><a href="https://www.linkedin.com/in/santiagorojasmontoya/">Santiago Rojas</a></h5>
                                 <small>Founder at Cube Ventures VC</small>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ function Testimonials() {
                         <div className="review-person mt-4 mb-3 d-flex align-items-center">
                             <img src={Juan} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
-                                <h5>Juan Caro</h5>
+                                <h5><a href="https://www.linkedin.com/in/juan-david-caro/">Juan Caro</a></h5>
                                 <small>Product Manager</small>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ function Testimonials() {
                         <div className="review-person mt-4 mb-3 d-flex align-items-center">
                             <img src={Lina} alt="" className='perfil-image rounded-circle'/>
                             <div className='ms-3'>
-                                <h5>Lina Cuervo</h5>
+                                <h5><a href="https://www.linkedin.com/in/lina-maria-cuervo/">Lina Cuervo</a></h5>
                                 <small>Impact Investing Analyst</small>
                             </div>
                         </div>
