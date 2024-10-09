@@ -54,7 +54,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center display-7'>Alfred DO it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='text-center'>$1000</h2>
+                                    <h2 className='text-center'>$1500</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -95,7 +95,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center'>Alfred CRUSH it! </h3>
                                 <div className='price-container'>
-                                    <h2 className='display-6 text-center'>$2000</h2>
+                                    <h2 className='display-6 text-center'>$3500</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -136,7 +136,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center'>Alfred MASTER it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='display-6 text-center'>$3500</h2>
+                                    <h2 className='display-6 text-center'>$4200</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -180,7 +180,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center display-7'>Alfred DO it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='text-center'>$900</h2>
+                                    <h2 className='text-center'>$1200</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -221,7 +221,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center'>Alfred CRUSH it! </h3>
                                 <div className='price-container'>
-                                    <h2 className='display-6 text-center'>$1800</h2>
+                                    <h2 className='display-6 text-center'>$3000</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -262,7 +262,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center'>Alfred MASTER it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='display-6 text-center'>$2900</h2>
+                                    <h2 className='display-6 text-center'>$3500</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>

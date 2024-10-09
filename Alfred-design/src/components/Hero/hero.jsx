@@ -10,7 +10,7 @@ function Hero() {
                     <div className="col-12">
                         <h1 className='text-uppercase fw-bold display-1 text-white'>The Design Butler for your Startup</h1>
                         <h5 className='text-white mt-3 mb-4 display-7'>
-                        Unlimited Design Subscription for Your Business for as Little as $20,000/Year
+                        Unlimited Design Subscription for Your Business for as Little as $35,000/Year
                         </h5>
                         <div>
                         <a href="#contact" className='btn btn-brand me-2 mb-2 mb-md-0'>Get Started for free</a>
