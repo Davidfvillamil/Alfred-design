@@ -54,7 +54,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center display-7'>Alfred DO it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='text-center'>$1500</h2>
+                                    <h2 className='text-center'>$2000</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -71,7 +71,7 @@ function Pricing() {
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
-                                        <p>24 to 48-Hour Turnaround</p>
+                                        <p>Turnaround in up to 16 hours</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -112,7 +112,7 @@ function Pricing() {
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
-                                        <p>24-Hour Turnaround!</p>
+                                        <p>Turnaround in up to 12 hours</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -153,7 +153,7 @@ function Pricing() {
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
-                                        <p>24 to 48-Hour Turnaround</p>
+                                        <p>Turnaround in up to 12 hours</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -180,7 +180,7 @@ function Pricing() {
                             <div className="pricing-head p-4 bg-white theme-shadow">
                                 <h3 className='text-center display-7'>Alfred DO it!</h3>
                                 <div className='price-container'>
-                                    <h2 className='text-center'>$1200</h2>
+                                    <h2 className='text-center'>$1500</h2>
                                     <span>Month</span>
                                 </div>
                                 <div>
@@ -197,7 +197,7 @@ function Pricing() {
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
-                                        <p>24 to 48-Hour Turnaround</p>
+                                        <p>Turnaround in up to 16 hours</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -238,7 +238,7 @@ function Pricing() {
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
-                                        <p>24-Hour Turnaround!</p>
+                                        <p>Turnaround in up to 12 hours</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
@@ -279,7 +279,7 @@ function Pricing() {
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
-                                        <p>24 to 48-Hour Turnaround</p>
+                                        <p>Turnaround in up to 6 hours</p>
                                     </div>
                                     <div className='option-container'>
                                         <FaCheckCircle className='icon-check'/>
