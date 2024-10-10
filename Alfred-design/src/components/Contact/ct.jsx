@@ -79,12 +79,12 @@ function Contact() {
                   </div>
                   <div className="form-group col-lg-12">
                     <select id="options" name="options" className="form-group col-lg-12 select-element" placeholder = "prefered option">
-                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  (900 USD/month plan billed anually)</option>
-                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (1800 USD/month plan billed anually)</option>
-                        <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (2900 USD/month plan billed anually)</option>
-                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  (1000 USD/month plan billed monthly)</option>
-                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (2000 USD/month plan billed monthly)</option>
-                        <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (3500 USD/month plan billed monthly)</option>
+                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  ( billed anually)</option>
+                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (billed anually)</option>
+                        <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (billed anually)</option>
+                        <option value="opcion_890_USD">I'm interested in the Alfred do it plan  ( billed monthly)</option>
+                        <option value="opcion_1670_USD">I'm interested in the Alfred Crush it Plan  (billed monthly)</option>
+                        <option value="opcion_2900_USD">I'm interested in the Alfred Master it plan (billed monthly)</option>
                     </select>
                   </div>
                   <div className="form-group col-lg-12">
