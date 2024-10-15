@@ -7,6 +7,9 @@ import Portafolio3 from '../../assets/diseno7.png';
 import Portafolio4 from '../../assets/diseno6.png';
 import Portafolio5 from '../../assets/diseno8.png';
 import Portafolio6 from '../../assets/diseno2.png';
+import mobile_UxUi from '../../assets/mobile_uxui.png'
+import desk_uxui from '../../assets/Desk_uxui.png'
+import deck from '../../assets/corporate_design.png'
 
 import { FaSearch } from "react-icons/fa";
 
@@ -30,32 +33,50 @@ function Portafolio() {
           <div className="col-md-4">
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio1} alt="imagen de portafolio 1" className='img-portafolio'/>
+                <img src={mobile_UxUi} alt="imagen de portafolio 1" className='img-portafolio'/>
+                {/* Overlay con el texto */}
+                <div className="overlay">
+                  <Link to="/trabajos-hechos">
+                    <div className="overlay-text">Mobile UX/UI</div>
+                  </Link>
+                </div>
               </div>
-              <a href={Portafolio1} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
+              
             </div>
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio3} alt="imagen de portafolio 3" className='img-portafolio image-adjusted'/>
+                <img src={deck} alt="imagen de portafolio 3" className='img-portafolio image-adjusted'/>
+                {/* Overlay con el texto */}
+                <div className="overlay">
+                  <div className="overlay-text">Corporate Design</div>
+                </div>
               </div>
-              <a href={Portafolio3} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
+              
             </div>
           </div>
 
           <div className="col-md-4">
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio4} alt="imagen de portafolio 4" className='img-portafolio image-adjusted'/>
+                <img src={desk_uxui} alt="imagen de portafolio 4" className='img-portafolio image-adjusted'/>
+                {/* Overlay con el texto */}
+                <div className="overlay">
+                  <div className="overlay-text">Desktop UX/UI</div>
+                </div>
               </div>
-              <a href={Portafolio4} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
+              
             </div>
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio2} alt="imagen de portafolio 2" className='img-portafolio'/>
+                <img src={Portafolio1} alt="imagen de portafolio 2" className='img-portafolio'/>
+                {/* Overlay con el texto */}
+                <div className="overlay">
+                  <div className="overlay-text">Merchandise Design</div>
+                </div>
               </div>
-              <a href={Portafolio2} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
+              
             </div>
           </div>
 
@@ -63,15 +84,23 @@ function Portafolio() {
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
                 <img src={Portafolio6} alt="imagen de portafolio 6" className='img-portafolio'/>
+                {/* Overlay con el texto */}
+                <div className="overlay">
+                  <div className="overlay-text">Branding</div>
+                </div>
               </div>
-              <a href={Portafolio6} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
+              
             </div>
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
                 <img src={Portafolio5} alt="imagen de portafolio 5" className='img-portafolio image-adjusted'/>
+                {/* Overlay con el texto */}
+                <div className="overlay">
+                  <div className="overlay-text">Video Editing</div>
+                </div>
               </div>
-              <a href={Portafolio5} data-fancybox="gallery" className='iconbox'><FaSearch /></a>
+              
             </div>
           </div>
         </div>
@@ -89,4 +118,5 @@ function Portafolio() {
 }
 
 export default Portafolio;
+
 
