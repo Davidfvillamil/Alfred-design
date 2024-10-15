@@ -5,6 +5,7 @@ import Colombian_1 from '../../assets/Colombian_army_1.png';
 import Colombian_2 from '../../assets/Colombian_army_2.png';
 import Colombian_3 from '../../assets/Colombian_army_3.png';
 import Colombian_4 from '../../assets/Colombian_army_4.png';
+import Colombian_5 from '../../assets/Colombian_army_5.png';
 import ProjectPDF from '../../assets/Colombian_army_doc.pdf'; // Asegúrate de que el PDF esté en esta ruta
 
 function Colombian_army() {
@@ -14,6 +15,7 @@ function Colombian_army() {
     { src: Colombian_2 },
     { src: Colombian_3 },
     { src: Colombian_4 },
+    { src: Colombian_5 },
   ];
 
   return (
@@ -64,22 +66,33 @@ function Colombian_army() {
               </Link>
             </div>
 
-            <div className="col-md-12 text-center">
+            <div className="col-md-6 text-center">
               <Link to="/colombian-army">
                 <div className="trabajo-item image-zoom">
-                  <div className="image-zoom-wrapper" style={{ height: '600px', overflow: 'hidden' }}>
-                    <img src={Images[3].src} className='img-trabajo' alt="Colombian Army Project" />
+                  <div className="image-zoom-wrapper">
+                    <img src={Images[3].src} className='img-trabajo' alt="Project 2" />
                   </div>
                 </div>
               </Link>
             </div>
+
+            <div className="col-md-6 text-center">
+              <Link to="/colombian-army">
+                <div className="trabajo-item image-zoom">
+                  <div className="image-zoom-wrapper">
+                    <img src={Images[4].src} className='img-trabajo' alt="Project 3" />
+                  </div>
+                </div>
+              </Link>
+            </div>
+
 
           </div>
 
           {/* Botón para descargar o ver el PDF */}
           <div className="row mt-5">
             <div className="col-12 text-center">
-              <a href={ProjectPDF} className="btn btn-primary mx-2 mb-4" download="Colombian_army_project.pdf">
+              <a href={ProjectPDF} className="btn btn-primary mx-2" download="Colombian_army_project.pdf">
                 Download PDF
               </a>
               <a href={ProjectPDF} target="_blank" className="btn btn-secondary mx-2">
