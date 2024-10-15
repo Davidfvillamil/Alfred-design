@@ -13,6 +13,7 @@ import Contact from './components/Contact/ct.jsx';
 import Pricing from './components/Pricing/Pricing.jsx';
 import Faqs from './components/FAQS/faqs.jsx';
 import TrabajosHechos from './components/TrabajosHechos/TrabajosHechos.jsx'; // Importa el nuevo componente
+import Colombian_army from './components/Colombian_army/colombian_army.jsx';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           </>
         } />
         <Route path="/trabajos-hechos" element={<TrabajosHechos />} /> {/* Nueva ruta */}
+        <Route path='/colombian-army' element = {<Colombian_army/>}></Route>
       </Routes>
     </Router>
   );

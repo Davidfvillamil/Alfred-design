@@ -1,0 +1,14 @@
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Ajusta la altura de las imágenes grandes en pantallas pequeñas */
+@media (max-width: 768px) {
+    .image-zoom-wrapper {
+      height: auto; /* Permite que la imagen crezca o se reduzca con la pantalla */
+    }
+  }
+  
+
+  

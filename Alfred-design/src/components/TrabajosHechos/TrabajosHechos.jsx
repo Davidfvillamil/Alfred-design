@@ -1,5 +1,5 @@
 
-
+import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import './TrabajosHechos.css';
 import Imagen from '../../assets/home.jpg';
@@ -49,37 +49,7 @@ function TrabajosHechos() {
     {src:Colibri3, description: 'Merchandise design ',},
     {src:Colibri4, description: 'Merchandise design ', },
     {src:Colibri5, description: 'Merchandise design ',},
-    {src:Colibri6, description: 'Merchandise design ', },
-    {src:Colibri7, description: 'Brand Design',},
-    {src:Colibri8, description: 'Packaging Design',},
-    {src:UxUi1, description: 'Ux/Ui',},
-    {src:UxUi2, description: 'Ux/Ui',},
-    {src:UxUi3, description: 'Ux/Ui',},
-    {src:UxUi4, description: 'Ux/Ui', },
-    {src:UxUi5, description: 'Ux/Ui', },
-    {src:UxUi6, description: 'Ux/Ui', },
-    {src:UxUi7, description: 'Ux/Ui', },
-    {src:UxUi8, description: 'Ux/Ui',},
-    {src:UxUi9, description: 'Ux/Ui',},
-    {src:UxUi10, description: 'Ux/Ui',},
-    {src:UxUi11, description: 'Ux/Ui',},
-    {src:UxUi12, description: 'Ux/Ui',},
-    {src:UxUi13, description: 'Ux/Ui',},
-    {src:UxUi14, description: 'Ux/Ui',},
-    {src:UxUi15, description: 'Ux/Ui',},
-    {src:AAW1, description: 'Brand Design',},
-    {src:AAW2, description: 'Infographic Design',},
-    {src:AAW3, description: 'Merchandise design'},
-    {src:AAW4, description: 'Merchandise design'},
-    {src:AAW5, description: 'Merchandise design'},
-    {src:AAW6,description: 'Merchandise design'},
-    {src:HappyBerry1, description: 'Packaging Design'},
-    {src:HappyBerry2, description: 'Brand Design'},
-    {src:HappyBerry3, description: 'Brand Design'},
-    {src:HappyBerry4, description: 'Packaging Design'},
-    {src:HappyBerry5, description: 'Packaging Design'},
-    {src:HappyBerry6, description: 'Packaging Design'},
-    {src:HappyBerry7, description: 'Packaging Design'}
+    {src:Colibri6, description: 'Merchandise design ', }, 
   ]
   
 
@@ -118,15 +88,17 @@ function TrabajosHechos() {
             
           {Images.map((image) => (
               <div className="col-md-4">
-                <div className="trabajo-item image-zoom" onClick={() => openModal(image.src)}>
-                  <div className="image-zoom-wrapper">
-                    <img src={image.src} className='img-trabajo' />
+                <Link to="/colombian-army">
+                  <div className="trabajo-item image-zoom">
+                    <div className="image-zoom-wrapper">
+                      <img src={image.src} className='img-trabajo' />
+                    </div>
+                    <div className="trabajo-details">
+                      <h5>{image.description}</h5>
+                      <p>{image.brand}</p>
+                    </div>
                   </div>
-                  <div className="trabajo-details">
-                    <h5>{image.description}</h5>
-                    <p>{image.brand}</p>
-                  </div>
-                </div>
+                </Link>
               </div>
             ))
           }
