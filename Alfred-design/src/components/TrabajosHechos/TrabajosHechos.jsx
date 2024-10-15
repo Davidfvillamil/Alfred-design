@@ -9,42 +9,14 @@ import Colibri3 from '../../assets/Imágenes Alfred/images/colibri3.jpg';
 import Colibri4 from '../../assets/Imágenes Alfred/images/colibri4.jpg';
 import Colibri5 from '../../assets/Imágenes Alfred/images/colibri5.jpg';
 import Colibri6 from '../../assets/Imágenes Alfred/images/colibri6.jpg';
-import Colibri7 from '../../assets/Imágenes Alfred/images/diseno5.jpg';
-import Colibri8 from '../../assets/Imágenes Alfred/images/colibri8.jpg';
-import UxUi1 from '../../assets/Imágenes Alfred/images/uxui1.jpg'
-import UxUi2 from '../../assets/Imágenes Alfred/images/uxui2.jpg'
-import UxUi3 from '../../assets/Imágenes Alfred/images/uxui3.jpg'
-import UxUi4 from '../../assets/Imágenes Alfred/images/uxui4.jpg'
-import UxUi5 from '../../assets/Imágenes Alfred/images/uxui5.jpg'
-import UxUi6 from '../../assets/Imágenes Alfred/images/uxui6.jpg'
-import UxUi7 from '../../assets/Imágenes Alfred/images/uxui7.jpg'
-import UxUi8 from '../../assets/Imágenes Alfred/images/uxui8.jpg'
-import UxUi9 from '../../assets/Imágenes Alfred/images/uxui9.jpg'
-import UxUi10 from '../../assets/Imágenes Alfred/images/uxui10.jpg'
-import UxUi11 from '../../assets/Imágenes Alfred/images/uxui11.jpg'
-import UxUi12 from '../../assets/Imágenes Alfred/images/uxui12.jpg'
-import UxUi13 from '../../assets/Imágenes Alfred/images/uxui13.jpg'
-import UxUi14 from '../../assets/Imágenes Alfred/images/uxui14.jpg'
-import UxUi15 from '../../assets/Imágenes Alfred/images/uxui15.jpg'
-import AAW1 from '../../assets/Imágenes Alfred/images/AAW1.jpg'
-import AAW2 from '../../assets/Imágenes Alfred/images/AAW2.jpg'
-import AAW3 from '../../assets/Imágenes Alfred/images/AAW3.jpg'
-import AAW4 from '../../assets/Imágenes Alfred/images/AAW4.jpg'
-import AAW5 from '../../assets/Imágenes Alfred/images/AAW5.jpg'
-import AAW6 from '../../assets/Imágenes Alfred/images/AAW6.jpg'
-import HappyBerry1 from '../../assets/Imágenes Alfred/images/Hpb1.jpg'
-import HappyBerry2 from '../../assets/Imágenes Alfred/images/Hpb2.jpg'
-import HappyBerry3 from '../../assets/Imágenes Alfred/images/Hpb3.jpg'
-import HappyBerry4 from '../../assets/Imágenes Alfred/images/Hpb4.jpg'
-import HappyBerry5 from '../../assets/Imágenes Alfred/images/Hpb5.jpg'
-import HappyBerry6 from '../../assets/Imágenes Alfred/images/Hpb6.jpg'
-import HappyBerry7 from '../../assets/Imágenes Alfred/images/Hpb7.jpg'
+import Colombian_1 from '../../assets/Colombian_army_1.png';
+
 import Navbar from '../Navbar/navbar' // Importamos el componente del Navbar
 
 function TrabajosHechos() {
 
   const Images = [
-    {src:Colibri1, description: 'Brand Design'},
+    {src:Colombian_1, description: 'Colombian Army learning platform'},
     {src:Colibri2, description: 'Merchandise design '},
     {src:Colibri3, description: 'Merchandise design ',},
     {src:Colibri4, description: 'Merchandise design ', },
