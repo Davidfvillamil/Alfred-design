@@ -19,10 +19,7 @@ function TrabajosHechos() {
   const Images = [
     {src:Colombian_1, description: 'Colombian Army learning platform', link:'/colombian-army'},
     {src:nutrarte_1, description: 'Nutratere: Health and Wellness', link:'/nutrarte'},
-    {src:Colibri3, description: 'Merchandise design ',},
-    {src:Colibri4, description: 'Merchandise design ', },
-    {src:Colibri5, description: 'Merchandise design ',},
-    {src:Colibri6, description: 'Merchandise design ', }, 
+     
   ]
   
 
@@ -50,7 +47,7 @@ function TrabajosHechos() {
           <div className="row">
             <div className="col-12 text-center">
               <div className="section-title">
-                <h1 className="display-3">Our Completed Projects</h1>
+                <h1 className="display-3">Our Completed UX/UI Projects</h1>
                 <div className="line"></div>
                 <p>Explore the diverse range of projects we've completed, showcasing our creativity and dedication to quality design.</p>
               </div>
@@ -60,7 +57,7 @@ function TrabajosHechos() {
           <div className="row g-4">
             
           {Images.map((image) => (
-              <div className="col-md-4">
+              <div className="col-md-4 acceso-link">
                 <Link to={image.link}>
                   <div className="trabajo-item image-zoom">
                     <div className="image-zoom-wrapper">

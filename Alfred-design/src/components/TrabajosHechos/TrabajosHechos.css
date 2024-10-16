@@ -59,7 +59,14 @@
   .trabajo-details h5 {
     font-family: 'Benzin';
     font-size: 18px;
+    text-decoration: none; /* Asegúrate de que no haya subrayado */
+    border: none; /* Asegúrate de que no haya borde */
+    margin: 0; /* Elimina cualquier margen que pueda causar espacio no deseado */
+    padding: 0; /* Elimina cualquier padding que pueda causar espacio no deseado */
   }
+
+  
+
   
   .trabajo-details p {
     font-family: 'Benzin';
