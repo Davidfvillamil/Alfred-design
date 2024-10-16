@@ -10,14 +10,15 @@ import Colibri4 from '../../assets/Imágenes Alfred/images/colibri4.jpg';
 import Colibri5 from '../../assets/Imágenes Alfred/images/colibri5.jpg';
 import Colibri6 from '../../assets/Imágenes Alfred/images/colibri6.jpg';
 import Colombian_1 from '../../assets/Colombian_army_1.png';
+import nutrarte_1 from '../../assets/nutrarte_1.png'
 
 import Navbar from '../Navbar/navbar' // Importamos el componente del Navbar
 
 function TrabajosHechos() {
 
   const Images = [
-    {src:Colombian_1, description: 'Colombian Army learning platform'},
-    {src:Colibri2, description: 'Merchandise design '},
+    {src:Colombian_1, description: 'Colombian Army learning platform', link:'/colombian-army'},
+    {src:nutrarte_1, description: 'Nutratere: Health and Wellness', link:'/nutrarte'},
     {src:Colibri3, description: 'Merchandise design ',},
     {src:Colibri4, description: 'Merchandise design ', },
     {src:Colibri5, description: 'Merchandise design ',},
@@ -60,7 +61,7 @@ function TrabajosHechos() {
             
           {Images.map((image) => (
               <div className="col-md-4">
-                <Link to="/colombian-army">
+                <Link to={image.link}>
                   <div className="trabajo-item image-zoom">
                     <div className="image-zoom-wrapper">
                       <img src={image.src} className='img-trabajo' />

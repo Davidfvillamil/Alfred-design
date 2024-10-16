@@ -36,7 +36,7 @@ function Portafolio() {
                 <img src={mobile_UxUi} alt="imagen de portafolio 1" className='img-portafolio'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <Link to="/trabajos-hechos">
+                  <Link>
                     <div className="overlay-text">Mobile UX/UI</div>
                   </Link>
                 </div>
@@ -62,7 +62,9 @@ function Portafolio() {
                 <img src={desk_uxui} alt="imagen de portafolio 4" className='img-portafolio image-adjusted'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <div className="overlay-text">Desktop UX/UI</div>
+                  <Link to='/trabajos-hechos'>
+                    <div className="overlay-text">Desktop UX/UI</div>
+                  </Link>
                 </div>
               </div>
               
