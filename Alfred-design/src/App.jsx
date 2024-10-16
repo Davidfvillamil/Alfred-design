@@ -15,6 +15,7 @@ import Faqs from './components/FAQS/faqs.jsx';
 import TrabajosHechos from './components/TrabajosHechos/TrabajosHechos.jsx'; // Importa el nuevo componente
 import Colombian_army from './components/Colombian_army/colombian_army.jsx';
 import Nutrarte from './components/Nutrate/nutrate.jsx';
+import Rmd from './components/rmd/rmd.jsx';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/trabajos-hechos" element={<TrabajosHechos />} /> {/* Nueva ruta */}
         <Route path='/colombian-army' element = {<Colombian_army/>}></Route>
         <Route path='/nutrarte' element = {<Nutrarte/>}></Route>
+        <Route path='/rmd' element ={<Rmd></Rmd>}></Route>
       </Routes>
     </Router>
   );

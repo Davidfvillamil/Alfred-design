@@ -2,15 +2,10 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import './TrabajosHechos.css';
-import Imagen from '../../assets/home.jpg';
-import Colibri1 from '../../assets/Imágenes Alfred/images/colibri1.jpg';
-import Colibri2 from '../../assets/Imágenes Alfred/images/colibri2.jpg';
-import Colibri3 from '../../assets/Imágenes Alfred/images/colibri3.jpg';
-import Colibri4 from '../../assets/Imágenes Alfred/images/colibri4.jpg';
-import Colibri5 from '../../assets/Imágenes Alfred/images/colibri5.jpg';
-import Colibri6 from '../../assets/Imágenes Alfred/images/colibri6.jpg';
+
 import Colombian_1 from '../../assets/Colombian_army_1.png';
 import nutrarte_1 from '../../assets/nutrarte_1.png'
+import Rmd_1 from '../../assets/rmd_1.png';
 
 import Navbar from '../Navbar/navbar' // Importamos el componente del Navbar
 
@@ -19,7 +14,7 @@ function TrabajosHechos() {
   const Images = [
     {src:Colombian_1, description: 'Colombian Army learning platform', link:'/colombian-army'},
     {src:nutrarte_1, description: 'Nutratere: Health and Wellness', link:'/nutrarte'},
-     
+    {src:Rmd_1, description: '3D renderings for real estate sales.', link:'/rmd'},
   ]
   
 
