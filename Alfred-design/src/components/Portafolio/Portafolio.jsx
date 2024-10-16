@@ -36,7 +36,7 @@ function Portafolio() {
                 <img src={mobile_UxUi} alt="imagen de portafolio 1" className='img-portafolio'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <Link>
+                  <Link to='/ux_ui_mobile'>
                     <div className="overlay-text">Mobile UX/UI</div>
                   </Link>
                 </div>
