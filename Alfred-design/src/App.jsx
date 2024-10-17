@@ -18,6 +18,8 @@ import Nutrarte from './components/Nutrate/nutrate.jsx';
 import Rmd from './components/rmd/rmd.jsx';
 import Uxui_mobile from './components/ux_ui_mobile/ux_ui_mobile.jsx';
 import Ruby from './components/Ruby/Ruby.jsx';
+import Nutrarte_Mobile from './components/Nutrarte_mobile/Nutrarte_mobile.jsx';
+import Rmd_Mobile from './components/Rmd_mobile/Rmd_mobile.jsx';
 
 function App() {
   return (
@@ -47,6 +49,8 @@ function App() {
         <Route path='/rmd' element ={<Rmd></Rmd>}></Route>
         <Route path='/ux_ui_mobile' element = {<Uxui_mobile/>}></Route>
         <Route path='/ruby' element = {<Ruby></Ruby>}></Route>
+        <Route path='/nutrarte-mobile' element = {<Nutrarte_Mobile/>}></Route>
+        <Route path='/rmd-mobile' element = {<Rmd_Mobile/>}></Route>
       </Routes>
     </Router>
   );

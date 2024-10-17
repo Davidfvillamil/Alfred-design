@@ -5,7 +5,7 @@ import './ux_ui_mobile.css';
 
 import Ruby_0 from '../../assets/Ruby_0.png';
 import Ruby_1 from '../../assets/Ruby_1.png';
-import Ruby_2 from '../../assets/nutrarte_1.png'
+import Nutrarte from '../../assets/nutrarte_mobile_portada.png'
 import Ruby_3 from '../../assets/rmd_1.png';
 
 import Navbar from '../Navbar/navbar' // Importamos el componente del Navbar
@@ -13,9 +13,9 @@ import Navbar from '../Navbar/navbar' // Importamos el componente del Navbar
 function Uxui_mobile() {
 
   const Images = [
-    {src:Ruby_0, description: 'Banking platform', link:'/Ruby'},
-    {src:Ruby_2, description: 'Nutratere: Health and Wellness', link:'/nutrarte'},
-    {src:Ruby_3, description: '3D renderings for real estate sales.', link:'/rmd'},
+    {src:Ruby_0, description: 'Hiring platform', link:'/Ruby'},
+    {src:Nutrarte, description: 'Nutratere: Health and Wellness', link:'/nutrarte-mobile'},
+    {src:Ruby_3, description: '3D renderings for real estate sales.', link:'/rmd-mobile'},
   ]
   
 

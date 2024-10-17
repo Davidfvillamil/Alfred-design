@@ -1,34 +1,37 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/navbar'; // Importamos el componente del Navbar
-import Ruby_1 from '../../assets/Ruby_1.png';
-import Ruby_2 from '../../assets/Ruby_2.png';
-import Ruby_3 from '../../assets/Ruby_3.png';
-import Ruby_0 from '../../assets/Ruby_0.png';
-import Nutrarte_4 from '../../assets/nutrarte_4.png';
-import Colombian_5 from '../../assets/nutrarte_5.png';
-import ProjectPDF from '../../assets/Ruby.pdf'; // Asegúrate de que el PDF esté en esta ruta
+import Rmd_mobile_1 from '../../assets/rmd_mobile_1.png';
+import Rmd_mobile_2 from '../../assets/rmd_mobile_2.png';
+import Rmd_mobile_3 from '../../assets/rmd_mobile_3.png';
+import rmd_mobile_portada from '../../assets/rmd_mobile_portada.png'
 
-function Ruby() {
+import Nutrarte_mobile_portada from '../../assets/nutrarte_mobile_portada.png';
+import Ruby_0 from '../../assets/Ruby_0.png';
+
+import ProjectPDF from '../../assets/rmd_mobile.pdf'; // Asegúrate de que el PDF esté en esta ruta
+
+function Rmd_Mobile() {
 
   const Images = [
-    { src: Ruby_0 },
-    { src: Ruby_1 },
-    { src: Ruby_2 },
-    { src: Ruby_3 },
+    { src: rmd_mobile_portada},
+    { src: Rmd_mobile_1},
+    { src: Rmd_mobile_2},
+    { src: Rmd_mobile_3},
+  
   ];
 
   return (
     <>
       <Navbar /> {/* Incluimos el Navbar */}
-      <section id='ruby' className='section-padding'>
+      <section id='rmd-mobile' className='section-padding'>
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
               <div className="section-title">
-                <h1 className="display-3">Ruby Hiring platform</h1>
+                <h1 className="display-3">RMD: 3D tech</h1>
                 <div className="line"></div>
-                <p>Ruby is a connection platform designed to streamline the recruitment process by connecting companies with top professionals quickly and efficiently. Our tool optimizes every stage of the hiring process, ensuring that businesses find the ideal talent, reducing time, and simplifying the onboarding. Grow your team with Ruby, where talent and opportunity meet!</p>
+                <p>RMD is a technology that enables an interactive and immersive 3D experience of properties, making it easier for buyers and renters to explore and make decisions.</p>
               </div>
             </div>
           </div>
@@ -75,7 +78,15 @@ function Ruby() {
                 </div>
               </Link>
             </div>
+
+            
+
+           
+            
+
           </div>
+
+          
 
           {/* Botón para descargar o ver el PDF */}
           <div className="row mt-5">
@@ -95,5 +106,4 @@ function Ruby() {
   );
 }
 
-export default Ruby;
-
+export default Rmd_Mobile;
