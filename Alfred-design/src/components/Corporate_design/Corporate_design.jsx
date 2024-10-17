@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/navbar'; // Importamos el componente del Navbar
 import Corporate_design_1 from '../../assets/Aurora_deck_portada.png';
-import Corporate_design_2 from '../../assets/aurora_deck_1.png';
-import Corporate_design_3 from '../../assets/aurora_deck_2.png';
-import Corporate_design_4 from '../../assets/aurora_deck_3.png';
+import Corporate_design_2 from '../../assets/Aurora_deck_1.png';
+import Corporate_design_3 from '../../assets/Aurora_deck_2.png';
+import Corporate_design_4 from '../../assets/Aurora_deck_3.png';
 import Corporate_design_5 from '../../assets/corporate_design.png';
 
 import './Corporate_design.css'
@@ -29,7 +29,7 @@ function Corporate_desing() {
           <div className="row">
             <div className="col-12 text-center">
               <div className="section-title">
-                <h1 className="display-3">Aurora: fractional real state investment</h1>
+                <h1 className="display-3">Aurora:fractional real state investment</h1>
                 <div className="line"></div>
                 <p>Aurora is a fractional real estate investment platform that allows individuals to invest in properties in LATAM starting from 300 USD, offering access to opportunities previously available only to large investors. We created their investment deck for the pre-seed round</p>
               </div>
