@@ -20,6 +20,7 @@ import Uxui_mobile from './components/ux_ui_mobile/ux_ui_mobile.jsx';
 import Ruby from './components/Ruby/Ruby.jsx';
 import Nutrarte_Mobile from './components/Nutrarte_mobile/Nutrarte_mobile.jsx';
 import Rmd_Mobile from './components/Rmd_mobile/Rmd_mobile.jsx';
+import Corporate_desing from './components/Corporate_design/Corporate_design.jsx';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path='/ruby' element = {<Ruby></Ruby>}></Route>
         <Route path='/nutrarte-mobile' element = {<Nutrarte_Mobile/>}></Route>
         <Route path='/rmd-mobile' element = {<Rmd_Mobile/>}></Route>
+        <Route path='/corporate-design' element = {<Corporate_desing></Corporate_desing>}></Route>
       </Routes>
     </Router>
   );

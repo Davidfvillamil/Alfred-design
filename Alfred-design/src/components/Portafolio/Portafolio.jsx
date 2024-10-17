@@ -49,7 +49,9 @@ function Portafolio() {
                 <img src={deck} alt="imagen de portafolio 3" className='img-portafolio image-adjusted'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <div className="overlay-text">Corporate Design</div>
+                  <Link to='/corporate-design'>
+                    <div className="overlay-text">Corporate Design</div>
+                  </Link>
                 </div>
               </div>
               
