@@ -28,7 +28,7 @@ function Rmd() {
               <div className="section-title">
                 <h1 className="display-3">3D renderings for real estate sales</h1>
                 <div className="line"></div>
-                <p>Nutratere is a health and wellness company that combines science, technology, and nutrition to prevent, treat, and reverse diseases naturally, without the need for medications. We empower individuals to achieve optimal health through innovative, non-invasive solutions</p>
+                <p>RMD is a technology that enables an interactive and immersive 3D experience of properties, making it easier for buyers and renters to explore and make decisions</p>
               </div>
             </div>
           </div>
