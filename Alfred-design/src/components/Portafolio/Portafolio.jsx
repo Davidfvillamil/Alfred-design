@@ -109,12 +109,7 @@ function Portafolio() {
           </div>
         </div>
 
-        {/* Botón para redirigir a Trabajos Hechos */}
-        <div className="row">
-          <div className="col-12 text-center mt-5">
-            <Link to="/trabajos-hechos" className="btn btn-primary">Check out portfolio</Link>
-          </div>
-        </div>
+        
 
       </div>
     </section>
