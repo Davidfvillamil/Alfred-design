@@ -40,6 +40,8 @@
     --color-brand-light: #6970dd;
     --color-brand-rgb: 78,87,212;
     --color-body: #727272;
+    --color-hover-gradient-start: rgba(255, 255, 255, 0.3); /* Blanco semitransparente */
+    --color-hover-gradient-end: rgba(38, 100, 230, 0.7); /* Azul semitransparente */
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
     --transition: all 0.3s ease-in-out;
@@ -105,33 +107,34 @@
     opacity: 1;
     top: 50%;
 }
+
 /* Estilos generales */
 .portafolio-item {
     position: relative;
     overflow: hidden;
-  }
-  
-  .image-zoom-wrapper {
+}
+
+.image-zoom-wrapper {
     position: relative;
     width: 100%;
     height: 100%;
-  }
-  
-  /* Imagen de portafolio */
-  .img-portafolio {
+}
+
+/* Imagen de portafolio */
+.img-portafolio {
     width: 100%;
     height: auto;
     display: block;
-  }
-  
-  /* Overlay */
+}
+
+/* Overlay */
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    background: linear-gradient(180deg,var(--color-hover-gradient-end), var(--color-hover-gradient-start)); /* Degradado semitransparente */
     opacity: 0;
     transition: opacity 0.3s ease; /* Transición suave */
     display: flex;
@@ -139,8 +142,16 @@
     align-items: center;
 }
 
-  /* Texto dentro del overlay */
-  .overlay-text {
+.text-link{
+    text-decoration: none;
+}
+
+.text-link:hover{
+    text-decoration: none;
+}
+
+/* Texto dentro del overlay */
+.overlay-text {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -148,17 +159,16 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-  
-  /* Efecto de hover */
-  .portafolio-item:hover .overlay {
+    text-decoration: none;
+}
+
+/* Efecto de hover */
+.portafolio-item:hover .overlay {
     opacity: 1;
-  }
-  
-  .portafolio-item:hover .overlay-text {
+}
+
+.portafolio-item:hover .overlay-text {
     opacity: 1;
     transform: translateY(0);
-  }
-  
+}
 
-/* Otros estilos globales aquí */

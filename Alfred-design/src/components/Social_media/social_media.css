@@ -1,0 +1,67 @@
+/* social_media.css */
+
+.section-padding {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    margin-bottom: 40px;
+  }
+  
+  .line {
+    width: 100px;
+    height: 3px;
+    background: #007bff; /* Cambia a tu color deseado */
+    margin: 10px auto;
+  }
+  
+  .trabajo-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .trabajo-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .img-trabajo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 123, 255, 0.8); /* Cambié a un color sólido y opaco */
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Inicialmente invisible */
+  }
+  
+  .trabajo-item:hover .overlay {
+    opacity: 1; /* Mostrar el overlay al hacer hover */
+  }
+  
+  .overlay-text {
+    color: #ffffff; /* Color del texto */
+    font-size: 24px; /* Aumenta el tamaño del texto */
+    text-align: center;
+    padding: 20px;
+    transition: opacity 0.3s ease; /* Para que el texto aparezca suavemente */
+  }
+  
+  /* Aseguramos que la opacidad del texto sea visible cuando el overlay esté activo */
+  .trabajo-item:hover .overlay-text {
+    opacity: 1; /* Asegúrate de que el texto se muestre */
+}
+  
+  
+  

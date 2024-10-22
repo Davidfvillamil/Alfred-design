@@ -2,9 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Importa Link para la navegación
 
 import Portafolio1 from '../../assets/diseno1.png';
-import Portafolio2 from '../../assets/diseno4.png';
-import Portafolio3 from '../../assets/diseno7.png';
-import Portafolio4 from '../../assets/diseno6.png';
+import Social_media from '../../assets/social_media.png'
 import Portafolio5 from '../../assets/diseno8.png';
 import Portafolio6 from '../../assets/diseno2.png';
 import mobile_UxUi from '../../assets/mobile_uxui.png'
@@ -36,7 +34,7 @@ function Portafolio() {
                 <img src={mobile_UxUi} alt="imagen de portafolio 1" className='img-portafolio'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <Link to='/ux_ui_mobile'>
+                  <Link to='/ux_ui_mobile' className='text-link'>
                     <div className="overlay-text">Mobile UX/UI</div>
                   </Link>
                 </div>
@@ -49,7 +47,7 @@ function Portafolio() {
                 <img src={deck} alt="imagen de portafolio 3" className='img-portafolio image-adjusted'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <Link to='/corporate-design'>
+                  <Link to='/corporate-design' className='text-link'>
                     <div className="overlay-text">Corporate Design</div>
                   </Link>
                 </div>
@@ -64,7 +62,7 @@ function Portafolio() {
                 <img src={desk_uxui} alt="imagen de portafolio 4" className='img-portafolio image-adjusted'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <Link to='/trabajos-hechos'>
+                  <Link to='/trabajos-hechos' className='text-link'>
                     <div className="overlay-text">Desktop UX/UI</div>
                   </Link>
                 </div>
@@ -74,10 +72,12 @@ function Portafolio() {
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio1} alt="imagen de portafolio 2" className='img-portafolio'/>
+                <img src={Social_media} alt="imagen de portafolio 2" className='img-portafolio'/>
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <div className="overlay-text">Merchandise Design</div>
+                  <Link to='/social-media' className='text-link'>
+                    <div className="overlay-text">Social Media content</div>
+                  </Link>
                 </div>
               </div>
               

@@ -21,6 +21,7 @@ import Ruby from './components/Ruby/Ruby.jsx';
 import Nutrarte_Mobile from './components/Nutrarte_mobile/Nutrarte_mobile.jsx';
 import Rmd_Mobile from './components/Rmd_mobile/Rmd_mobile.jsx';
 import Corporate_desing from './components/Corporate_design/Corporate_design.jsx';
+import Social_media from './components/Social_media/Social_media.jsx';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
         <Route path='/nutrarte-mobile' element = {<Nutrarte_Mobile/>}></Route>
         <Route path='/rmd-mobile' element = {<Rmd_Mobile/>}></Route>
         <Route path='/corporate-design' element = {<Corporate_desing></Corporate_desing>}></Route>
+        <Route path='/social-media' element = {<Social_media></Social_media>}></Route>
       </Routes>
     </Router>
   );
