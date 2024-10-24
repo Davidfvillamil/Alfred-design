@@ -5,7 +5,7 @@ import Portafolio1 from '../../assets/diseno1.png';
 import Social_media from '../../assets/social_media.png'
 import Portafolio5 from '../../assets/diseno8.png';
 import Portafolio6 from '../../assets/diseno2.png';
-import mobile_UxUi from '../../assets/mobile_uxui.png'
+import mobile_UxUi from '../../assets/uxui_mobile.mp4' // Este es el archivo de video
 import desk_uxui from '../../assets/Desk_uxui.png'
 import deck from '../../assets/corporate_design.png'
 
@@ -31,7 +31,10 @@ function Portafolio() {
           <div className="col-md-4">
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
-                <img src={mobile_UxUi} alt="imagen de portafolio 1" className='img-portafolio'/>
+                {/* Aquí usamos la etiqueta <video> en lugar de <img> */}
+                <video src={mobile_UxUi} alt="UX/UI Mobile" className='img-portafolio' controls muted autoPlay loop>
+                  Tu navegador no soporta videos.
+                </video>
                 {/* Overlay con el texto */}
                 <div className="overlay">
                   <Link to='/ux_ui_mobile' className='text-link'>
@@ -39,7 +42,6 @@ function Portafolio() {
                   </Link>
                 </div>
               </div>
-              
             </div>
 
             <div className="portafolio-item image-zoom mt-4">
@@ -52,7 +54,6 @@ function Portafolio() {
                   </Link>
                 </div>
               </div>
-              
             </div>
           </div>
 
@@ -67,7 +68,6 @@ function Portafolio() {
                   </Link>
                 </div>
               </div>
-              
             </div>
 
             <div className="portafolio-item image-zoom mt-4">
@@ -80,7 +80,6 @@ function Portafolio() {
                   </Link>
                 </div>
               </div>
-              
             </div>
           </div>
 
@@ -93,7 +92,6 @@ function Portafolio() {
                   <div className="overlay-text">Branding</div>
                 </div>
               </div>
-              
             </div>
 
             <div className="portafolio-item image-zoom mt-4">
@@ -104,7 +102,6 @@ function Portafolio() {
                   <div className="overlay-text">Video Editing</div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
