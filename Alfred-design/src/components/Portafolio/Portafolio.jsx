@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Importa Link para la navegación
 
 import Portafolio1 from '../../assets/diseno1.png';
-import Social_media from '../../assets/social_media.png'
+import Social_media from '../../assets/social_media.png';
 import Portafolio5 from '../../assets/diseno8.png';
 import Portafolio6 from '../../assets/diseno2.png';
-import mobile_UxUi from '../../assets/uxui_mobile.mp4' // Este es el archivo de video
-import desk_uxui from '../../assets/Desk_uxui.png'
-import deck from '../../assets/corporate_design.png'
+import mobile_UxUi from '../../assets/uxui_mobile.mp4'; // Este es el archivo de video
+import desk_uxui from '../../assets/Desk_uxui.png';
+import deck from '../../assets/corporate_design.png';
 
 import { FaSearch } from "react-icons/fa";
 
@@ -26,13 +26,13 @@ function Portafolio() {
             </div>
           </div>
         </div>
-        
+
         <div className="row g-4">
           <div className="col-md-4">
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
-                {/* Aquí usamos la etiqueta <video> en lugar de <img> */}
-                <video src={mobile_UxUi} alt="UX/UI Mobile" className='img-portafolio' controls muted autoPlay loop>
+                {/* Video sin controles y con atributos para autoplay, loop y muted */}
+                <video src={mobile_UxUi} className='img-portafolio' muted autoPlay loop playsInline>
                   Tu navegador no soporta videos.
                 </video>
                 {/* Overlay con el texto */}
@@ -46,7 +46,7 @@ function Portafolio() {
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={deck} alt="imagen de portafolio 3" className='img-portafolio image-adjusted'/>
+                <img src={deck} alt="imagen de portafolio 3" className='img-portafolio image-adjusted' />
                 {/* Overlay con el texto */}
                 <div className="overlay">
                   <Link to='/corporate-design' className='text-link'>
@@ -60,7 +60,7 @@ function Portafolio() {
           <div className="col-md-4">
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
-                <img src={desk_uxui} alt="imagen de portafolio 4" className='img-portafolio image-adjusted'/>
+                <img src={desk_uxui} alt="imagen de portafolio 4" className='img-portafolio image-adjusted' />
                 {/* Overlay con el texto */}
                 <div className="overlay">
                   <Link to='/trabajos-hechos' className='text-link'>
@@ -72,7 +72,7 @@ function Portafolio() {
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={Social_media} alt="imagen de portafolio 2" className='img-portafolio'/>
+                <img src={Social_media} alt="imagen de portafolio 2" className='img-portafolio' />
                 {/* Overlay con el texto */}
                 <div className="overlay">
                   <Link to='/social-media' className='text-link'>
@@ -86,7 +86,7 @@ function Portafolio() {
           <div className="col-md-4">
             <div className="portafolio-item image-zoom">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio6} alt="imagen de portafolio 6" className='img-portafolio'/>
+                <img src={Portafolio6} alt="imagen de portafolio 6" className='img-portafolio' />
                 {/* Overlay con el texto */}
                 <div className="overlay">
                   <div className="overlay-text">Branding</div>
@@ -96,7 +96,7 @@ function Portafolio() {
 
             <div className="portafolio-item image-zoom mt-4">
               <div className="image-zoom-wrapper">
-                <img src={Portafolio5} alt="imagen de portafolio 5" className='img-portafolio image-adjusted'/>
+                <img src={Portafolio5} alt="imagen de portafolio 5" className='img-portafolio image-adjusted' />
                 {/* Overlay con el texto */}
                 <div className="overlay">
                   <div className="overlay-text">Video Editing</div>
@@ -105,14 +105,12 @@ function Portafolio() {
             </div>
           </div>
         </div>
-
-        
-
       </div>
     </section>
   );
 }
 
 export default Portafolio;
+
 
 
