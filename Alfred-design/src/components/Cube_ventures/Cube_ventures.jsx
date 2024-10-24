@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './cube_ventures.css'; // Archivo de estilos exclusivo para Cube Ventures
+import './Cube_ventures.css'; // Archivo de estilos exclusivo para Cube Ventures
 
 import image1 from '../../assets/cube_ventures.jpeg';
 import image2 from '../../assets/cube_ventures2.jpeg';
