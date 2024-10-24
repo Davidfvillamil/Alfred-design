@@ -12,12 +12,12 @@ function Social_media() {
     {
       src: CubeVenturesImage,
       title: 'Cube Ventures',
-      link: '/cube-ventures',
+      link: '/cube-ventures', // Este es el link correcto para este elemento
     },
     {
       src: ParcerosImage,
       title: 'Parceros',
-      link: '/parceros',
+      link: '/parceros', // Este es el link correcto para este elemento
     },
   ];
 
@@ -41,19 +41,20 @@ function Social_media() {
               <div className="col-md-6 acceso-link" key={index}>
                 <div className="trabajo-item image-zoom">
                   <div className="image-zoom-wrapper">
-                    <img src={image.src} className='img-trabajo' alt={image.title} />
-                    <div className="overlay">
-                      <div className="overlay-text">
-                        {image.title}
+                    {/* Aquí hacemos referencia a image.link, no a Images.link */}
+                    <Link to={image.link}>
+                      <img src={image.src} className='img-trabajo' alt={image.title} />
+                      <div className="overlay">
+                        <div className="overlay-text">
+                          {image.title}
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-
-
         </div>
       </section>
     </>
@@ -61,6 +62,7 @@ function Social_media() {
 }
 
 export default Social_media;
+
 
 
 
