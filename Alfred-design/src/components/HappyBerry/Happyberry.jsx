@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; // Importamos useState
-import './happyberry.css';
+import './Happyberry.css';
 
 import HappyBerryImage1 from '../../assets/HappyBerry1.jpg';
 import HappyBerryImage2 from '../../assets/HappyBerry2.jpg';
