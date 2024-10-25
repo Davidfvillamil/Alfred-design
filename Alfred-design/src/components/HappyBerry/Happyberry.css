@@ -1,0 +1,90 @@
+/* happyberry.css */
+
+/* Contenedor principal para que las imágenes sean de tamaño uniforme */
+.contenedor-image-happyberry {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según prefieras */
+    overflow: hidden; /* Oculta las partes sobrantes de la imagen */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+/* Imágenes dentro del contenedor para que ocupen todo el espacio */
+.contenedor-image-happyberry img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen se ajuste sin deformarse */
+    object-position: center; /* Centra la imagen en el contenedor */
+}
+
+/* Estilo del overlay con degradado cuando se hace hover */
+.contenedor-image-happyberry .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 123, 255, 0.5),); /* Cambia el color a tu color corporativo */
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.3s ease; /* Transición suave */
+}
+
+/* Mostrar el overlay en hover */
+.contenedor-image-happyberry:hover .overlay {
+    opacity: 1; /* Muestra el overlay */
+}
+
+/* Estilo del modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo del modal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el modal esté por encima de otros elementos */
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1001; /* Asegura que la X esté por encima */
+}
+
+/* Añade estilos adicionales si es necesario */
+.section-padding {
+    padding: 60px 0; /* Ajusta el espaciado de la sección */
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background: #007bff; /* Color de la línea debajo del título */
+    margin: 20px auto; /* Centra la línea */
+}
+
+.section-title {
+    margin-bottom: 40px; /* Espaciado inferior para el título de sección */
+}
+
+.happyberry-item {
+    cursor: pointer; /* Cambia el cursor al pasar sobre las imágenes */
+}
+
+  
+  

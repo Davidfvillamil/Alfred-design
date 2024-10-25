@@ -24,6 +24,8 @@ import Corporate_desing from './components/Corporate_design/Corporate_design.jsx
 import Social_media from './components/Social_media/Social_media.jsx';
 import CubeVentures from './components/Cube_ventures/Cube_ventures.jsx';
 import Parceros from './components/Parceros/Parceros.jsx';
+import Branding from './components/Branding/branding.jsx';
+import HappyBerry from './components/HappyBerry/Happyberry.jsx';
 
 function App() {
   return (
@@ -59,6 +61,8 @@ function App() {
         <Route path='/social-media' element = {<Social_media></Social_media>}></Route>
         <Route path='/cube-ventures' element = {<CubeVentures></CubeVentures>}></Route>
         <Route path='/parceros' element = {<Parceros></Parceros>}></Route>
+        <Route path='/branding' element = {<Branding></Branding>}></Route>
+        <Route path='/happyberry' element = {<HappyBerry></HappyBerry>}></Route>
       </Routes>
     </Router>
   );

@@ -89,7 +89,9 @@ function Portafolio() {
                 <img src={Portafolio6} alt="imagen de portafolio 6" className='img-portafolio' />
                 {/* Overlay con el texto */}
                 <div className="overlay">
-                  <div className="overlay-text">Branding</div>
+                  <Link to='/branding' className='text-link'>
+                    <div className="overlay-text">Branding</div>
+                  </Link>
                 </div>
               </div>
             </div>
