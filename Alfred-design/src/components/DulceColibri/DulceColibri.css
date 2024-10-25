@@ -1,0 +1,28 @@
+/* DulceColibri.css */
+
+.modal {
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Fijo en la ventana del navegador */
+    top: 0; /* Posiciona en la parte superior */
+    left: 0; /* Posiciona a la izquierda */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100%; /* Ocupa toda la altura */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con transparencia */
+    z-index: 1000; /* Asegúrate de que el z-index sea alto */
+}
+
+.modal-content {
+    max-width: 90%; /* Asegura que la imagen no exceda el tamaño de la pantalla */
+    max-height: 90%; /* Asegura que la imagen no exceda el tamaño de la pantalla */
+}
+
+.close-button {
+    position: absolute; /* Para posicionar el botón de cerrar */
+    top: 20px; /* Ajusta según lo necesites */
+    right: 20px; /* Ajusta según lo necesites */
+    font-size: 30px; /* Tamaño del icono de cerrar */
+    color: white; /* Color del icono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}

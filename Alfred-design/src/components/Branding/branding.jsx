@@ -17,7 +17,7 @@ function Branding() {
     {
       src: BrandingExample2,
       title: 'Branding Example 2',
-      link: '/branding-example-2', // Adjust the link as needed
+      link: '/dulce-colibri', // Adjust the link as needed
     },
   ];
 

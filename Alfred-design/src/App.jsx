@@ -26,6 +26,7 @@ import CubeVentures from './components/Cube_ventures/Cube_ventures.jsx';
 import Parceros from './components/Parceros/Parceros.jsx';
 import Branding from './components/Branding/branding.jsx';
 import HappyBerry from './components/HappyBerry/Happyberry.jsx';
+import DulceColibri from './components/DulceColibri/DulceColibri.jsx';
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
         <Route path='/parceros' element = {<Parceros></Parceros>}></Route>
         <Route path='/branding' element = {<Branding></Branding>}></Route>
         <Route path='/happyberry' element = {<HappyBerry></HappyBerry>}></Route>
+        <Route path='/dulce-colibri' element = {<DulceColibri></DulceColibri>}></Route>
       </Routes>
     </Router>
   );
