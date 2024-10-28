@@ -9,6 +9,8 @@ import mobile_UxUi from '../../assets/uxui_mobile.mp4'; // Este es el archivo de
 import desk_uxui from '../../assets/Desk_uxui.png';
 import deck from '../../assets/corporate_design.png';
 
+import VideoAlfred from '../../assets/video_alfred.mp4'
+
 import { FaSearch } from "react-icons/fa";
 
 import './portafolio.css';
@@ -96,15 +98,26 @@ function Portafolio() {
               </div>
             </div>
 
-            <div className="portafolio-item image-zoom mt-4">
-              <div className="image-zoom-wrapper">
-                <img src={Portafolio5} alt="imagen de portafolio 5" className='img-portafolio image-adjusted' />
-                {/* Overlay con el texto */}
-                <div className="overlay">
-                  <div className="overlay-text">Video Editing</div>
-                </div>
+            <div className="portafolio-item image-zoom">
+              <div className="portafolio-video-wrapper">
+                  <video
+                      src={VideoAlfred}
+                      className='portafolio-video'
+                      muted
+                      autoPlay
+                      loop
+                      playsInline
+                  >
+                      Tu navegador no soporta videos.
+                  </video>
+                  <div className="overlay-video">
+                      <div className="overlay-text">Video Editing</div>
+                  </div>
               </div>
-            </div>
+          </div>
+
+
+            
           </div>
         </div>
       </div>
@@ -112,7 +125,7 @@ function Portafolio() {
   );
 }
 
-export default Portafolio;
+export default Portafolio
 
 
 
